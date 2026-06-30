@@ -1,0 +1,35 @@
+.cssa-gears-loader {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.cssa-gears-loader span {
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 4px dotted #0ea5e9;
+  animation: cssa-gears-loader-spin 2s linear infinite;
+}
+
+.cssa-gears-loader span:nth-child(1) {
+  top: 0;
+  left: 0;
+  border-color: #0ea5e9 #0ea5e9 transparent transparent;
+}
+
+.cssa-gears-loader span:nth-child(2) {
+  bottom: 0;
+  right: 0;
+  border-color: transparent transparent #f59e0b #f59e0b;
+  animation-direction: reverse;
+  animation-duration: 2.6s;
+}
+
+@keyframes cssa-gears-loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

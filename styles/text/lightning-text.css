@@ -1,0 +1,37 @@
+.cssa-lightning-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #facc15;
+  text-shadow:
+    0 0 6px #fff,
+    0 0 14px #facc15,
+    0 0 28px #f59e0b;
+  animation: cssa-lightning-text-flash 2.5s linear infinite;
+}
+
+@keyframes cssa-lightning-text-flash {
+  0%,
+  90%,
+  100% {
+    opacity: 1;
+    text-shadow:
+      0 0 6px #fff,
+      0 0 14px #facc15,
+      0 0 28px #f59e0b;
+  }
+  92%,
+  94%,
+  96% {
+    opacity: 0.2;
+    text-shadow: none;
+  }
+  93%,
+  95% {
+    opacity: 1;
+    text-shadow:
+      0 0 10px #fff,
+      0 0 24px #facc15,
+      0 0 48px #f59e0b,
+      0 0 72px #f59e0b;
+  }
+}

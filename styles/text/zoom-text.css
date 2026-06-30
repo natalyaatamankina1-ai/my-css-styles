@@ -1,0 +1,23 @@
+.cssa-zoom-text {
+  font-size: 40px;
+  font-weight: 800;
+  color: #f59e0b;
+  text-align: center;
+}
+
+.cssa-zoom-text span {
+  display: inline-block;
+  animation: cssa-zoom-text-scale 1.8s ease-in-out infinite;
+}
+
+@keyframes cssa-zoom-text-scale {
+  0%,
+  100% {
+    transform: scale(1);
+    color: #f59e0b;
+  }
+  50% {
+    transform: scale(1.4);
+    color: #ef4444;
+  }
+}

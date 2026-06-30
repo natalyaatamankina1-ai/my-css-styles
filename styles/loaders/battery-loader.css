@@ -1,0 +1,45 @@
+.cssa-battery-loader {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  border: 3px solid #0f172a;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cssa-battery-loader::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 14px;
+  background: #0f172a;
+  border-radius: 0 2px 2px 0;
+}
+
+.cssa-battery-loader span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  animation: cssa-battery-loader-charge 1.8s ease-in-out infinite;
+}
+
+@keyframes cssa-battery-loader-charge {
+  0% {
+    width: 0%;
+    background: linear-gradient(90deg, #ef4444, #f87171);
+  }
+  50% {
+    width: 55%;
+    background: linear-gradient(90deg, #f59e0b, #fbbf24);
+  }
+  100% {
+    width: 100%;
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+  }
+}

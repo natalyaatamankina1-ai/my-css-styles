@@ -1,0 +1,18 @@
+.cssa-dots-grid-bg {
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  background-color: #fdf2f8;
+  background-image: radial-gradient(#ec4899 2px, transparent 2px);
+  background-size: 20px 20px;
+  animation: cssa-dots-grid-bg-drift 6s linear infinite;
+}
+
+@keyframes cssa-dots-grid-bg-drift {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}

@@ -1,0 +1,22 @@
+.cssa-bounce-button {
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f97316, #ef4444);
+  box-shadow: 0 8px 22px rgba(239, 68, 68, 0.35);
+  animation: cssa-bounce-button-bounce 2.4s ease-in-out infinite;
+}
+
+@keyframes cssa-bounce-button-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

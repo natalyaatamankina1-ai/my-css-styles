@@ -1,0 +1,30 @@
+.cssa-gradient-shift-button {
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #ff6a3d, #e63946, #7b2ff7, #f72585, #ff6a3d);
+  background-size: 300% 100%;
+  animation: cssa-gradient-shift-button-flow 4s ease infinite;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cssa-gradient-shift-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(123, 47, 247, 0.35);
+}
+
+@keyframes cssa-gradient-shift-button-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

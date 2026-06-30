@@ -1,0 +1,53 @@
+.cssa-bounce-ball-loader {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.cssa-bounce-ball-loader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin-left: -9px;
+  border-radius: 50%;
+  background: #ef4444;
+  animation: cssa-bounce-ball-loader-ball 1s ease-in-out infinite;
+}
+
+.cssa-bounce-ball-loader::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 30px;
+  height: 6px;
+  margin-left: -15px;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.25);
+  animation: cssa-bounce-ball-loader-shadow 1s ease-in-out infinite;
+}
+
+@keyframes cssa-bounce-ball-loader-ball {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(28px) scale(1.05, 0.95);
+  }
+}
+
+@keyframes cssa-bounce-ball-loader-shadow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(0.6);
+    opacity: 0.2;
+  }
+}

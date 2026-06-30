@@ -1,0 +1,21 @@
+.cssa-tilt-card {
+  width: 200px;
+  height: 130px;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cssa-tilt-card:hover {
+  transform: perspective(600px) rotateX(15deg) rotateY(-20deg) scale(1.05);
+  box-shadow: -16px 16px 36px rgba(139, 92, 246, 0.5);
+}

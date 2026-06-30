@@ -1,0 +1,66 @@
+.cssa-floating-orbs-bg {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #0f172a;
+}
+
+.cssa-floating-orbs-bg span {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  filter: blur(4px);
+  opacity: 0.8;
+  animation: cssa-floating-orbs-bg-float 8s ease-in-out infinite;
+}
+
+.cssa-floating-orbs-bg span:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  background: #f472b6;
+  top: 20%;
+  left: 15%;
+  animation-delay: 0s;
+}
+
+.cssa-floating-orbs-bg span:nth-child(2) {
+  width: 80px;
+  height: 80px;
+  background: #38bdf8;
+  top: 50%;
+  left: 55%;
+  animation-delay: 1.5s;
+}
+
+.cssa-floating-orbs-bg span:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  background: #a78bfa;
+  top: 60%;
+  left: 25%;
+  animation-delay: 3s;
+}
+
+.cssa-floating-orbs-bg span:nth-child(4) {
+  width: 40px;
+  height: 40px;
+  background: #34d399;
+  top: 25%;
+  left: 70%;
+  animation-delay: 4.5s;
+}
+
+@keyframes cssa-floating-orbs-bg-float {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -25px) scale(1.15);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+}

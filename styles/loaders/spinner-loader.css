@@ -1,0 +1,14 @@
+.cssa-spinner-loader {
+  width: 56px;
+  height: 56px;
+  border: 6px solid rgba(99, 102, 241, 0.2);
+  border-top-color: #6366f1;
+  border-radius: 50%;
+  animation: cssa-spinner-loader-spin 0.9s linear infinite;
+}
+
+@keyframes cssa-spinner-loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

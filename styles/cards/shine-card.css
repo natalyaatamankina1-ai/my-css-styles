@@ -1,0 +1,52 @@
+.cssa-shine-card {
+  position: relative;
+  width: 220px;
+  padding: 28px 24px;
+  background: linear-gradient(135deg, #1e1b4b, #4c1d95);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  border-radius: 16px;
+  color: #ede9fe;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cssa-shine-card:hover {
+  transform: translateY(-6px);
+}
+
+.cssa-shine-card::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transform: rotate(25deg);
+  transition: left 0.7s ease;
+}
+
+.cssa-shine-card:hover::after {
+  left: 130%;
+}
+
+.cssa-shine-card-title {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cssa-shine-card-text {
+  position: relative;
+  z-index: 1;
+  font-size: 13px;
+  color: #c4b5fd;
+}

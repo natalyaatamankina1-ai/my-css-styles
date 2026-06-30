@@ -1,0 +1,37 @@
+.cssa-orbit-loader {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.cssa-orbit-loader span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px;
+  border-radius: 50%;
+  background: #f43f5e;
+  transform-origin: center;
+  animation: cssa-orbit-loader-spin 1.4s linear infinite;
+}
+
+.cssa-orbit-loader span:nth-child(2) {
+  background: #22c55e;
+  animation-delay: -0.46s;
+}
+
+.cssa-orbit-loader span:nth-child(3) {
+  background: #3b82f6;
+  animation-delay: -0.93s;
+}
+
+@keyframes cssa-orbit-loader-spin {
+  0% {
+    transform: rotate(0deg) translateX(24px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(24px) rotate(-360deg);
+  }
+}

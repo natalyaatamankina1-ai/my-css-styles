@@ -1,0 +1,19 @@
+.cssa-hexagon-loader {
+  width: 52px;
+  height: 52px;
+  background: #f59e0b;
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  animation: cssa-hexagon-loader-spin 1.5s ease-in-out infinite;
+}
+
+@keyframes cssa-hexagon-loader-spin {
+  0%,
+  100% {
+    transform: rotate(0deg) scale(1);
+    background: #f59e0b;
+  }
+  50% {
+    transform: rotate(180deg) scale(0.7);
+    background: #8b5cf6;
+  }
+}

@@ -1,0 +1,33 @@
+.cssa-dual-ring-loader {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top-color: #f43f5e;
+  border-bottom-color: #f43f5e;
+  animation: cssa-dual-ring-loader-spin 1.2s linear infinite;
+}
+
+.cssa-dual-ring-loader::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-left-color: #22d3ee;
+  border-right-color: #22d3ee;
+  animation: cssa-dual-ring-loader-spin-rev 0.9s linear infinite;
+}
+
+@keyframes cssa-dual-ring-loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cssa-dual-ring-loader-spin-rev {
+  to {
+    transform: rotate(-360deg);
+  }
+}

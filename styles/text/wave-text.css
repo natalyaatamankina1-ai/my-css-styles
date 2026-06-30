@@ -1,0 +1,22 @@
+.cssa-wave-text {
+  display: inline-flex;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0ea5e9;
+}
+
+.cssa-wave-text span {
+  animation: cssa-wave-text-wave 1.6s ease-in-out infinite;
+}
+
+@keyframes cssa-wave-text-wave {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-18px);
+    color: #f43f5e;
+  }
+}

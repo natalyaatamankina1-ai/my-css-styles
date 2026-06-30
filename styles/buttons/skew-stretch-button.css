@@ -1,0 +1,30 @@
+.cssa-skew-stretch-button {
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.35);
+  animation: cssa-skew-stretch-button-wobble 3s ease-in-out infinite;
+  transition: box-shadow 0.25s ease;
+}
+
+.cssa-skew-stretch-button:hover {
+  box-shadow: 0 12px 32px rgba(59, 130, 246, 0.55);
+}
+
+@keyframes cssa-skew-stretch-button-wobble {
+  0%,
+  100% {
+    transform: skewX(0deg) scaleX(1);
+  }
+  25% {
+    transform: skewX(-6deg) scaleX(1.06);
+  }
+  75% {
+    transform: skewX(6deg) scaleX(1.06);
+  }
+}

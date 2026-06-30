@@ -1,0 +1,27 @@
+.cssa-grid-pulse-bg {
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  background-color: #020617;
+  background-image:
+    linear-gradient(rgba(56, 189, 248, 0.25) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.25) 1px, transparent 1px);
+  background-size: 28px 28px;
+  animation: cssa-grid-pulse-bg-pulse 3s ease-in-out infinite;
+}
+
+@keyframes cssa-grid-pulse-bg-pulse {
+  0%,
+  100% {
+    background-color: #020617;
+    background-image:
+      linear-gradient(rgba(56, 189, 248, 0.2) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(56, 189, 248, 0.2) 1px, transparent 1px);
+  }
+  50% {
+    background-color: #0c4a6e;
+    background-image:
+      linear-gradient(rgba(125, 211, 252, 0.6) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(125, 211, 252, 0.6) 1px, transparent 1px);
+  }
+}

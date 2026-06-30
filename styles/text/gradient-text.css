@@ -1,0 +1,17 @@
+.cssa-gradient-text {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  background: linear-gradient(90deg, #f72585, #b5179e, #7209b7, #3a0ca3, #f72585);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: cssa-gradient-text-flow 4s linear infinite;
+}
+
+@keyframes cssa-gradient-text-flow {
+  to {
+    background-position: 200% center;
+  }
+}

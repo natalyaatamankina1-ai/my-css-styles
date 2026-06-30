@@ -1,0 +1,31 @@
+.cssa-magnetic-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  box-shadow: 0 6px 18px rgba(79, 70, 229, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cssa-magnetic-button svg,
+.cssa-magnetic-button .cssa-magnetic-button-arrow {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cssa-magnetic-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(79, 70, 229, 0.5);
+}
+
+.cssa-magnetic-button:hover .cssa-magnetic-button-arrow {
+  transform: translateX(6px);
+}

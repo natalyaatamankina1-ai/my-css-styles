@@ -1,0 +1,20 @@
+.cssa-shadow-swing-card {
+  width: 220px;
+  height: 140px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f472b6, #a855f7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 8px 8px 0 0 rgba(15, 23, 42, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cssa-shadow-swing-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 14px 14px 0 0 rgba(15, 23, 42, 0.45);
+}

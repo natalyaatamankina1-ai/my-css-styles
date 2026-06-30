@@ -1,0 +1,52 @@
+.cssa-vortex-bg {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #020617;
+}
+
+.cssa-vortex-bg::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  border-radius: 50%;
+  background:
+    conic-gradient(
+      from 0deg,
+      transparent,
+      #06b6d4,
+      #8b5cf6,
+      #ec4899,
+      transparent
+    );
+  animation: cssa-vortex-bg-spin 3s linear infinite, cssa-vortex-bg-grow 3s ease-in-out infinite;
+  filter: blur(2px);
+}
+
+@keyframes cssa-vortex-bg-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cssa-vortex-bg-grow {
+  0%,
+  100% {
+    width: 20px;
+    height: 20px;
+    margin: -10px;
+    opacity: 0.9;
+  }
+  50% {
+    width: 240px;
+    height: 240px;
+    margin: -120px;
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,24 @@
+.cssa-text-3d-shadow {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fbbf24;
+  letter-spacing: 2px;
+  text-shadow:
+    1px 1px 0 #d97706,
+    2px 2px 0 #b45309,
+    3px 3px 0 #92400e,
+    4px 4px 0 #78350f,
+    5px 5px 0 #451a03,
+    6px 7px 10px rgba(0, 0, 0, 0.35);
+  animation: cssa-text-3d-shadow-float 3s ease-in-out infinite;
+}
+
+@keyframes cssa-text-3d-shadow-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}

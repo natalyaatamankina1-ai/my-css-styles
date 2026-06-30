@@ -10,27 +10,18 @@
     0 6px 14px rgba(15, 23, 42, 0.25);
 }
 
-/* Tick marks at 12 / 3 / 6 / 9 via a single conic repeating ring */
+/* Tick marks: 12 clear marks via repeating-conic-gradient, masked to a ring */
 .cssa-clock-loader::before {
   content: "";
   position: absolute;
-  inset: 6px;
+  inset: 5px;
   border-radius: 50%;
-  background:
-    conic-gradient(
-      from 0deg,
-      #0f172a 0 2deg,
-      transparent 2deg 88deg,
-      #0f172a 88deg 92deg,
-      transparent 92deg 178deg,
-      #0f172a 178deg 182deg,
-      transparent 182deg 268deg,
-      #0f172a 268deg 272deg,
-      transparent 272deg 358deg,
-      #0f172a 358deg 360deg
-    );
-  -webkit-mask: radial-gradient(circle, transparent 58%, #000 60%);
-  mask: radial-gradient(circle, transparent 58%, #000 60%);
+  background: repeating-conic-gradient(
+    #0f172a 0deg 3deg,
+    transparent 3deg 30deg
+  );
+  -webkit-mask: radial-gradient(circle, transparent 62%, #000 64%, #000 78%, transparent 80%);
+  mask: radial-gradient(circle, transparent 62%, #000 64%, #000 78%, transparent 80%);
 }
 
 /* Hour hand (short, dark) */
@@ -69,14 +60,15 @@
 .cssa-clock-loader span::after {
   content: "";
   position: absolute;
-  bottom: -4px;
+  bottom: -5px;
   left: 50%;
-  width: 8px;
-  height: 8px;
-  margin-left: -4px;
+  width: 9px;
+  height: 9px;
+  margin-left: -4.5px;
   border-radius: 50%;
   background: #0f172a;
   border: 2px solid #ef4444;
+  z-index: 4;
 }
 
 @keyframes cssa-clock-loader-hour {

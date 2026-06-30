@@ -1,0 +1,56 @@
+.cssa-border-trace-card {
+  position: relative;
+  width: 220px;
+  padding: 28px 24px;
+  background: #111827;
+  border-radius: 16px;
+  color: #f9fafb;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cssa-border-trace-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--cssa-btc-angle, 0deg),
+    #f59e0b,
+    #ec4899,
+    #8b5cf6,
+    #f59e0b
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: cssa-border-trace-card-spin 4s linear infinite;
+}
+
+@property --cssa-btc-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes cssa-border-trace-card-spin {
+  to {
+    --cssa-btc-angle: 360deg;
+  }
+}
+
+.cssa-border-trace-card-title {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cssa-border-trace-card-text {
+  position: relative;
+  font-size: 13px;
+  color: #9ca3af;
+}

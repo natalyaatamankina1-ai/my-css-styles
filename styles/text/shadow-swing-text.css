@@ -1,0 +1,30 @@
+.cssa-shadow-swing-text {
+  font-size: 44px;
+  font-weight: 900;
+  color: #fff;
+  position: relative;
+}
+
+.cssa-shadow-swing-text::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  color: rgba(15, 23, 42, 0.55);
+  z-index: -1;
+  animation: cssa-shadow-swing-text-swing 3s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+@keyframes cssa-shadow-swing-text-swing {
+  0%,
+  100% {
+    transform: translate(0, 0) skewX(0deg);
+  }
+  25% {
+    transform: translate(8px, 6px) skewX(-6deg);
+  }
+  75% {
+    transform: translate(-6px, 4px) skewX(6deg);
+  }
+}

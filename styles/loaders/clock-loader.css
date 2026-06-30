@@ -1,0 +1,45 @@
+.cssa-clock-loader {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 4px solid #0f172a;
+  background: #f8fafc;
+}
+
+.cssa-clock-loader::before,
+.cssa-clock-loader::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 3px;
+  background: #0f172a;
+  border-radius: 3px;
+  transform-origin: bottom center;
+}
+
+.cssa-clock-loader::before {
+  height: 20px;
+  margin-left: -1.5px;
+  animation: cssa-clock-loader-hour 4s linear infinite;
+}
+
+.cssa-clock-loader::after {
+  height: 26px;
+  margin-left: -1.5px;
+  background: #ef4444;
+  animation: cssa-clock-loader-minute 1s linear infinite;
+}
+
+@keyframes cssa-clock-loader-hour {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cssa-clock-loader-minute {
+  to {
+    transform: rotate(360deg);
+  }
+}

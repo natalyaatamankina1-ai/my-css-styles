@@ -488,6 +488,420 @@
       "file": "backgrounds/wave-bg.css",
       "html": "<div class=\"cssa-wave-bg\"></div>",
       "darkPreview": false
+    },
+    {
+      "id": "ripple-button",
+      "name": "Ripple Button",
+      "category": "Buttons",
+      "description": "Button with an endlessly expanding ripple radiating from its center.",
+      "file": "buttons/ripple-button.css",
+      "html": "<button class=\"cssa-ripple-button\">Ripple</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "flip-text-button",
+      "name": "Flip Text Button",
+      "category": "Buttons",
+      "description": "Button whose label flips 360° on hover in 3D.",
+      "file": "buttons/flip-text-button.css",
+      "html": "<button class=\"cssa-flip-text-button\"><span>Flip</span></button>",
+      "darkPreview": false
+    },
+    {
+      "id": "glow-pulse-border-button",
+      "name": "Glow Pulse Border Button",
+      "category": "Buttons",
+      "description": "White button ringed by a spinning, pulsing rainbow glow.",
+      "file": "buttons/glow-pulse-border-button.css",
+      "html": "<button class=\"cssa-glow-pulse-border-button\">Glow Pulse</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "arrow-slide-button",
+      "name": "Arrow Slide Button",
+      "category": "Buttons",
+      "description": "Pill button whose arrow icon slides outward as the gap widens.",
+      "file": "buttons/arrow-slide-button.css",
+      "html": "<button class=\"cssa-arrow-slide-button\">Continue <span class=\"cssa-arrow-slide-button-icon\">→</span></button>",
+      "darkPreview": false
+    },
+    {
+      "id": "fill-bottom-button",
+      "name": "Fill Bottom Button",
+      "category": "Buttons",
+      "description": "Outlined button whose fill rises up from the bottom on hover.",
+      "file": "buttons/fill-bottom-button.css",
+      "html": "<button class=\"cssa-fill-bottom-button\">Fill Up</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "scanline-button",
+      "name": "Scanline Button",
+      "category": "Buttons",
+      "description": "Dark button with a glowing scanline sweeping down endlessly.",
+      "file": "buttons/scanline-button.css",
+      "html": "<button class=\"cssa-scanline-button\">Scan</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "push-down-button",
+      "name": "Push Down Button",
+      "category": "Buttons",
+      "description": "Red 3D button that physically pushes down when clicked.",
+      "file": "buttons/push-down-button.css",
+      "html": "<button class=\"cssa-push-down-button\">Push</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "gradient-morph-button",
+      "name": "Gradient Morph Button",
+      "category": "Buttons",
+      "description": "Pill button whose gradient flows and morphs continuously.",
+      "file": "buttons/gradient-morph-button.css",
+      "html": "<button class=\"cssa-gradient-morph-button\">Morph</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "shine-diagonal-button",
+      "name": "Shine Diagonal Button",
+      "category": "Buttons",
+      "description": "Pink button with a diagonal light shine sweeping across on loop.",
+      "file": "buttons/shine-diagonal-button.css",
+      "html": "<button class=\"cssa-shine-diagonal-button\">Shine</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "infinity-loader",
+      "name": "Infinity Loader",
+      "category": "Loaders",
+      "description": "Two overlapping rotating arcs forming a figure-eight spinner.",
+      "file": "loaders/infinity-loader.css",
+      "html": "<div class=\"cssa-infinity-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "clock-loader",
+      "name": "Clock Loader",
+      "category": "Loaders",
+      "description": "Clock face with hour and minute hands spinning at different speeds.",
+      "file": "loaders/clock-loader.css",
+      "html": "<div class=\"cssa-clock-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "hexagon-loader",
+      "name": "Hexagon Loader",
+      "category": "Loaders",
+      "description": "A hexagon that rotates and pulses while shifting color.",
+      "file": "loaders/hexagon-loader.css",
+      "html": "<div class=\"cssa-hexagon-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "typing-indicator-loader",
+      "name": "Typing Indicator Loader",
+      "category": "Loaders",
+      "description": "Chat-style bubble with three dots bouncing like someone is typing.",
+      "file": "loaders/typing-indicator-loader.css",
+      "html": "<div class=\"cssa-typing-indicator-loader\"><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "bounce-ball-loader",
+      "name": "Bounce Ball Loader",
+      "category": "Loaders",
+      "description": "A ball bouncing with a matching shadow that grows and shrinks.",
+      "file": "loaders/bounce-ball-loader.css",
+      "html": "<div class=\"cssa-bounce-ball-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "gears-loader",
+      "name": "Gears Loader",
+      "category": "Loaders",
+      "description": "Two dotted gears spinning in opposite directions.",
+      "file": "loaders/gears-loader.css",
+      "html": "<div class=\"cssa-gears-loader\"><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "battery-loader",
+      "name": "Battery Loader",
+      "category": "Loaders",
+      "description": "A charging battery that fills from red to green on loop.",
+      "file": "loaders/battery-loader.css",
+      "html": "<div class=\"cssa-battery-loader\"><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "pacman-loader",
+      "name": "Pacman Loader",
+      "category": "Loaders",
+      "description": "Classic Pac-Man chomping while dots slide toward its mouth.",
+      "file": "loaders/pacman-loader.css",
+      "html": "<div class=\"cssa-pacman-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "ripple-loader",
+      "name": "Ripple Loader",
+      "category": "Loaders",
+      "description": "Concentric ripples expanding outward from a center disc.",
+      "file": "loaders/ripple-loader.css",
+      "html": "<div class=\"cssa-ripple-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "bounce-letters-text",
+      "name": "Bounce Letters Text",
+      "category": "Text",
+      "description": "Each letter bounces up independently in a staggered rhythm.",
+      "file": "text/bounce-letters-text.css",
+      "html": "<div class=\"cssa-bounce-letters-text\"><span style=\"animation-delay:0s\">B</span><span style=\"animation-delay:0.1s\">o</span><span style=\"animation-delay:0.2s\">u</span><span style=\"animation-delay:0.3s\">n</span><span style=\"animation-delay:0.4s\">c</span><span style=\"animation-delay:0.5s\">e</span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "glow-pulse-text",
+      "name": "Glow Pulse Text",
+      "category": "Text",
+      "description": "Cyan text whose glow softly pulses brighter and dimmer.",
+      "file": "text/glow-pulse-text.css",
+      "html": "<div class=\"cssa-glow-pulse-text\">Glow</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "rotate-3d-text",
+      "name": "Rotate 3D Text",
+      "category": "Text",
+      "description": "Text rotating fully around the Y axis in 3D on loop.",
+      "file": "text/rotate-3d-text.css",
+      "html": "<div class=\"cssa-rotate-3d-text\"><span>3D</span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "zoom-text",
+      "name": "Zoom Text",
+      "category": "Text",
+      "description": "Text scaling up and down while shifting color.",
+      "file": "text/zoom-text.css",
+      "html": "<div class=\"cssa-zoom-text\"><span>ZOOM</span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "shadow-swing-text",
+      "name": "Shadow Swing Text",
+      "category": "Text",
+      "description": "White text with a dark shadow that swings behind it.",
+      "file": "text/shadow-swing-text.css",
+      "html": "<div class=\"cssa-shadow-swing-text\" data-text=\"Swing\">Swing</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "color-split-text",
+      "name": "Color Split Text",
+      "category": "Text",
+      "description": "Text with red and cyan offset channels jittering like a glitch.",
+      "file": "text/color-split-text.css",
+      "html": "<div class=\"cssa-color-split-text\">SPLIT</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "pulse-scale-text",
+      "name": "Pulse Scale Text",
+      "category": "Text",
+      "description": "Green text gently scaling and brightening in a pulse.",
+      "file": "text/pulse-scale-text.css",
+      "html": "<div class=\"cssa-pulse-scale-text\">Pulse</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "flip-letters-text",
+      "name": "Flip Letters Text",
+      "category": "Text",
+      "description": "Letters flipping over the X axis while changing color.",
+      "file": "text/flip-letters-text.css",
+      "html": "<div class=\"cssa-flip-letters-text\"><span style=\"animation-delay:0s\">F</span><span style=\"animation-delay:0.2s\">L</span><span style=\"animation-delay:0.4s\">I</span><span style=\"animation-delay:0.6s\">P</span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "lightning-text",
+      "name": "Lightning Text",
+      "category": "Text",
+      "description": "Yellow text that flashes like a lightning strike at intervals.",
+      "file": "text/lightning-text.css",
+      "html": "<div class=\"cssa-lightning-text\">ZAP</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "snow-text",
+      "name": "Snow Gradient Text",
+      "category": "Text",
+      "description": "Text filled with a gradient that drifts downward like falling snow.",
+      "file": "text/snow-text.css",
+      "html": "<div class=\"cssa-snow-text\">Snow</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "glow-pulse-card",
+      "name": "Glow Pulse Card",
+      "category": "Cards",
+      "description": "Gradient card whose outer glow pulses outward on loop.",
+      "file": "cards/glow-pulse-card.css",
+      "html": "<div class=\"cssa-glow-pulse-card\">Pulse</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "gradient-border-card",
+      "name": "Gradient Border Card",
+      "category": "Cards",
+      "description": "Dark card with a rotating rainbow conic gradient border.",
+      "file": "cards/gradient-border-card.css",
+      "html": "<div class=\"cssa-gradient-border-card\"><div class=\"cssa-gradient-border-card-title\">Border</div><div class=\"cssa-gradient-border-card-text\">Rotating gradient</div></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "zoom-card",
+      "name": "Zoom Card",
+      "category": "Cards",
+      "description": "Card that zooms in smoothly when hovered.",
+      "file": "cards/zoom-card.css",
+      "html": "<div class=\"cssa-zoom-card\">Zoom</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "rotate-card",
+      "name": "Rotate Card",
+      "category": "Cards",
+      "description": "Card that tilts and scales up on hover.",
+      "file": "cards/rotate-card.css",
+      "html": "<div class=\"cssa-rotate-card\">Rotate</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "reveal-corners-card",
+      "name": "Reveal Corners Card",
+      "category": "Cards",
+      "description": "Dark card whose corner brackets slide in on hover.",
+      "file": "cards/reveal-corners-card.css",
+      "html": "<div class=\"cssa-reveal-corners-card\">Corners</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "scanline-card",
+      "name": "Scanline Card",
+      "category": "Cards",
+      "description": "Terminal-style card with a scanline sweeping down its face.",
+      "file": "cards/scanline-card.css",
+      "html": "<div class=\"cssa-scanline-card\"><span>SCAN</span></div>",
+      "darkPreview": true
+    },
+    {
+      "id": "neon-edge-card",
+      "name": "Neon Edge Card",
+      "category": "Cards",
+      "description": "Card with a flickering neon cyan edge.",
+      "file": "cards/neon-edge-card.css",
+      "html": "<div class=\"cssa-neon-edge-card\">Neon</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "shadow-swing-card",
+      "name": "Shadow Swing Card",
+      "category": "Cards",
+      "description": "Card with a hard offset shadow that swings out on hover.",
+      "file": "cards/shadow-swing-card.css",
+      "html": "<div class=\"cssa-shadow-swing-card\">Swing</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "tilt-3d-card",
+      "name": "Tilt 3D Card",
+      "category": "Cards",
+      "description": "Card tilting back in 3D perspective on hover.",
+      "file": "cards/tilt-3d-card.css",
+      "html": "<div class=\"cssa-tilt-3d-card\">Tilt</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "bubble-bg",
+      "name": "Bubble Background",
+      "category": "Backgrounds",
+      "description": "Translucent bubbles rising up through deep teal water.",
+      "file": "backgrounds/bubble-bg.css",
+      "html": "<div class=\"cssa-bubble-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "snow-bg",
+      "name": "Snow Background",
+      "category": "Backgrounds",
+      "description": "Snowflakes drifting down a night-sky gradient.",
+      "file": "backgrounds/snow-bg.css",
+      "html": "<div class=\"cssa-snow-bg\"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "confetti-bg",
+      "name": "Confetti Background",
+      "category": "Backgrounds",
+      "description": "Colorful confetti strips tumbling down while spinning.",
+      "file": "backgrounds/confetti-bg.css",
+      "html": "<div class=\"cssa-confetti-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "lightning-bg",
+      "name": "Lightning Background",
+      "category": "Backgrounds",
+      "description": "Stormy sky with periodic lightning flashes and a bolt.",
+      "file": "backgrounds/lightning-bg.css",
+      "html": "<div class=\"cssa-lightning-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "embers-bg",
+      "name": "Embers Background",
+      "category": "Backgrounds",
+      "description": "Glowing orange embers rising from a dark fire pit.",
+      "file": "backgrounds/embers-bg.css",
+      "html": "<div class=\"cssa-embers-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "stripes-bg",
+      "name": "Moving Stripes Background",
+      "category": "Backgrounds",
+      "description": "Diagonal pink stripes scrolling continuously.",
+      "file": "backgrounds/stripes-bg.css",
+      "html": "<div class=\"cssa-stripes-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "dots-grid-bg",
+      "name": "Drifting Dots Grid Background",
+      "category": "Backgrounds",
+      "description": "Pink polka-dot grid that gently drifts diagonally.",
+      "file": "backgrounds/dots-grid-bg.css",
+      "html": "<div class=\"cssa-dots-grid-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "vortex-bg",
+      "name": "Vortex Background",
+      "category": "Backgrounds",
+      "description": "A swirling conic vortex that grows and shrinks on loop.",
+      "file": "backgrounds/vortex-bg.css",
+      "html": "<div class=\"cssa-vortex-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "neon-grid-bg",
+      "name": "Neon Grid Background",
+      "category": "Backgrounds",
+      "description": "Retro synthwave perspective grid scrolling toward the horizon.",
+      "file": "backgrounds/neon-grid-bg.css",
+      "html": "<div class=\"cssa-neon-grid-bg\"></div>",
+      "darkPreview": true
     }
   ]
 }

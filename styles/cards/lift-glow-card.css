@@ -1,0 +1,29 @@
+.cssa-lift-glow-card {
+  width: 220px;
+  padding: 28px 24px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  color: #e2e8f0;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cssa-lift-glow-card:hover {
+  transform: translateY(-10px);
+  border-color: #22d3ee;
+  box-shadow:
+    0 20px 40px rgba(34, 211, 238, 0.25),
+    0 0 0 1px rgba(34, 211, 238, 0.3);
+}
+
+.cssa-lift-glow-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cssa-lift-glow-card-text {
+  font-size: 13px;
+  color: #94a3b8;
+}

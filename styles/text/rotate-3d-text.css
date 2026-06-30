@@ -1,0 +1,22 @@
+.cssa-rotate-3d-text {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ec4899;
+  perspective: 400px;
+}
+
+.cssa-rotate-3d-text span {
+  display: inline-block;
+  animation: cssa-rotate-3d-text-spin 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes cssa-rotate-3d-text-spin {
+  0%,
+  100% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+}

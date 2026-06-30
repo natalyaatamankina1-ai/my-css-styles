@@ -1,0 +1,54 @@
+.cssa-pacman-loader {
+  position: relative;
+  width: 64px;
+  height: 32px;
+}
+
+.cssa-pacman-loader::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fbbf24;
+  clip-path: polygon(100% 0%, 100% 35%, 50% 50%, 100% 65%, 100% 100%, 0% 100%, 0% 0%);
+  animation: cssa-pacman-loader-chomp 0.5s ease-in-out infinite alternate;
+}
+
+.cssa-pacman-loader::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  border-radius: 50%;
+  background: #ef4444;
+  box-shadow:
+    -12px 0 0 #38bdf8,
+    -24px 0 0 #a78bfa;
+  animation: cssa-pacman-loader-dots 1.5s linear infinite;
+}
+
+@keyframes cssa-pacman-loader-chomp {
+  0% {
+    clip-path: polygon(100% 0%, 100% 50%, 50% 50%, 100% 50%, 100% 100%, 0% 100%, 0% 0%);
+  }
+  100% {
+    clip-path: polygon(100% 0%, 100% 35%, 50% 50%, 100% 65%, 100% 100%, 0% 100%, 0% 0%);
+  }
+}
+
+@keyframes cssa-pacman-loader-dots {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-36px);
+    opacity: 0;
+  }
+}

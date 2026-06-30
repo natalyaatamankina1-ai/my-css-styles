@@ -1,0 +1,29 @@
+.cssa-progress-bar-loader {
+  position: relative;
+  width: 220px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(99, 102, 241, 0.18);
+  overflow: hidden;
+}
+
+.cssa-progress-bar-loader::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6366f1, #a855f7, #6366f1);
+  animation: cssa-progress-bar-loader-slide 1.4s ease-in-out infinite;
+}
+
+@keyframes cssa-progress-bar-loader-slide {
+  0% {
+    left: -40%;
+  }
+  100% {
+    left: 100%;
+  }
+}

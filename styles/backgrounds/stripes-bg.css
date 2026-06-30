@@ -1,0 +1,23 @@
+.cssa-stripes-bg {
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  background: repeating-linear-gradient(
+    45deg,
+    #f43f5e 0,
+    #f43f5e 14px,
+    #fb7185 14px,
+    #fb7185 28px
+  );
+  background-size: 200% 200%;
+  animation: cssa-stripes-bg-slide 4s linear infinite;
+}
+
+@keyframes cssa-stripes-bg-slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 56px 56px;
+  }
+}

@@ -1,0 +1,63 @@
+.cssa-confetti-bg {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #1e1b4b;
+}
+
+.cssa-confetti-bg span {
+  position: absolute;
+  top: -10%;
+  width: 8px;
+  height: 12px;
+  border-radius: 2px;
+  animation: cssa-confetti-bg-fall linear infinite;
+}
+
+.cssa-confetti-bg span:nth-child(1) {
+  left: 8%;
+  background: #f43f5e;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+.cssa-confetti-bg span:nth-child(2) {
+  left: 24%;
+  background: #f59e0b;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+}
+.cssa-confetti-bg span:nth-child(3) {
+  left: 40%;
+  background: #10b981;
+  animation-duration: 3.5s;
+  animation-delay: 1s;
+}
+.cssa-confetti-bg span:nth-child(4) {
+  left: 56%;
+  background: #3b82f6;
+  animation-duration: 4.5s;
+  animation-delay: 0.3s;
+}
+.cssa-confetti-bg span:nth-child(5) {
+  left: 72%;
+  background: #a855f7;
+  animation-duration: 3.8s;
+  animation-delay: 1.5s;
+}
+.cssa-confetti-bg span:nth-child(6) {
+  left: 86%;
+  background: #facc15;
+  animation-duration: 4.2s;
+  animation-delay: 0.8s;
+}
+
+@keyframes cssa-confetti-bg-fall {
+  0% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+  100% {
+    transform: translateY(180px) rotateZ(720deg);
+  }
+}

@@ -1,0 +1,35 @@
+.cssa-pulse-glow-button {
+  position: relative;
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6a3d, #e63946);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.7);
+  animation: cssa-pulse-glow-button-pulse 2s infinite;
+  transition: transform 0.2s ease;
+}
+
+.cssa-pulse-glow-button:hover {
+  transform: translateY(-2px);
+}
+
+.cssa-pulse-glow-button:active {
+  transform: translateY(0);
+}
+
+@keyframes cssa-pulse-glow-button-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(230, 57, 70, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(230, 57, 70, 0);
+  }
+}

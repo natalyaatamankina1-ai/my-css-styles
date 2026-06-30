@@ -1,0 +1,20 @@
+.cssa-square-flip-loader {
+  width: 48px;
+  height: 48px;
+  background: #8b5cf6;
+  border-radius: 6px;
+  animation: cssa-square-flip-loader-flip 1.4s ease-in-out infinite;
+}
+
+@keyframes cssa-square-flip-loader-flip {
+  0% {
+    transform: perspective(120px) rotateX(0) rotateY(0);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(0);
+    background: #ec4899;
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+  }
+}

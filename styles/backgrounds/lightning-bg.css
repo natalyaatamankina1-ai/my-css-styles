@@ -1,0 +1,54 @@
+.cssa-lightning-bg {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #1e293b, #020617);
+  animation: cssa-lightning-bg-flash 4s linear infinite;
+}
+
+.cssa-lightning-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  transform: translateX(-50%) scaleY(0);
+  transform-origin: top;
+  animation: cssa-lightning-bg-bolt 4s linear infinite;
+}
+
+@keyframes cssa-lightning-bg-flash {
+  0%,
+  10%,
+  90%,
+  100% {
+    background: linear-gradient(180deg, #1e293b, #020617);
+  }
+  5%,
+  7% {
+    background: linear-gradient(180deg, #64748b, #334155);
+  }
+  6% {
+    background: linear-gradient(180deg, #cbd5e1, #94a3b8);
+  }
+}
+
+@keyframes cssa-lightning-bg-bolt {
+  0%,
+  4%,
+  8%,
+  100% {
+    transform: translateX(-50%) scaleY(0);
+    opacity: 0;
+  }
+  5%,
+  7% {
+    transform: translateX(-50%) scaleY(1);
+    opacity: 1;
+    filter: drop-shadow(0 0 12px #fff) drop-shadow(0 0 24px #facc15);
+  }
+}

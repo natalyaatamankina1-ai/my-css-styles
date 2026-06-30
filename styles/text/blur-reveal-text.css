@@ -1,0 +1,21 @@
+.cssa-blur-reveal-text {
+  font-size: 40px;
+  font-weight: 700;
+  color: #8b5cf6;
+  letter-spacing: 2px;
+  animation: cssa-blur-reveal-text-cycle 3s ease-in-out infinite;
+}
+
+@keyframes cssa-blur-reveal-text-cycle {
+  0%,
+  100% {
+    filter: blur(12px);
+    opacity: 0.3;
+    letter-spacing: 10px;
+  }
+  50% {
+    filter: blur(0);
+    opacity: 1;
+    letter-spacing: 2px;
+  }
+}

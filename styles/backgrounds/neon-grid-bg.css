@@ -1,0 +1,36 @@
+.cssa-neon-grid-bg {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #050816;
+  background-image:
+    linear-gradient(rgba(255, 0, 200, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 0, 200, 0.35) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: center;
+  transform: perspective(300px) rotateX(50deg);
+  transform-origin: center bottom;
+  animation: cssa-neon-grid-bg-move 3s linear infinite;
+}
+
+.cssa-neon-grid-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 100%,
+    rgba(255, 0, 200, 0.4),
+    transparent 60%
+  );
+}
+
+@keyframes cssa-neon-grid-bg-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 28px;
+  }
+}

@@ -1,0 +1,31 @@
+.cssa-rainbow-cycle-text {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #f43f5e;
+  animation: cssa-rainbow-cycle-text-hue 4s linear infinite;
+}
+
+@keyframes cssa-rainbow-cycle-text-hue {
+  0% {
+    color: #f43f5e;
+  }
+  16% {
+    color: #f97316;
+  }
+  33% {
+    color: #eab308;
+  }
+  50% {
+    color: #22c55e;
+  }
+  66% {
+    color: #06b6d4;
+  }
+  83% {
+    color: #8b5cf6;
+  }
+  100% {
+    color: #f43f5e;
+  }
+}

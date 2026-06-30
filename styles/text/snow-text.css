@@ -1,0 +1,20 @@
+.cssa-snow-text {
+  font-size: 44px;
+  font-weight: 800;
+  color: #0ea5e9;
+  background: linear-gradient(180deg, #0ea5e9, #38bdf8, #e0f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100% 200%;
+  animation: cssa-snow-text-fall 3s linear infinite;
+}
+
+@keyframes cssa-snow-text-fall {
+  0% {
+    background-position: 0 -100%;
+  }
+  100% {
+    background-position: 0 200%;
+  }
+}

@@ -1,0 +1,30 @@
+.cssa-arrow-slide-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  background: #10b981;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+  transition: gap 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cssa-arrow-slide-button .cssa-arrow-slide-button-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.cssa-arrow-slide-button:hover {
+  gap: 16px;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(16, 185, 129, 0.5);
+}
+
+.cssa-arrow-slide-button:hover .cssa-arrow-slide-button-icon {
+  transform: translateX(4px);
+}

@@ -1,0 +1,40 @@
+@property --cssa-rbb-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.cssa-rainbow-border-button {
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: 3px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  background:
+    linear-gradient(#0f172a, #0f172a) padding-box,
+    conic-gradient(
+      from var(--cssa-rbb-angle),
+      #ff0080,
+      #ff8c00,
+      #ffe600,
+      #00e676,
+      #00b0ff,
+      #7c4dff,
+      #ff0080
+    )
+      border-box;
+  animation: cssa-rainbow-border-button-spin 3s linear infinite;
+  transition: transform 0.2s ease;
+}
+
+.cssa-rainbow-border-button:hover {
+  transform: translateY(-2px);
+}
+
+@keyframes cssa-rainbow-border-button-spin {
+  to {
+    --cssa-rbb-angle: 360deg;
+  }
+}

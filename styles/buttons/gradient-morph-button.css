@@ -1,0 +1,28 @@
+.cssa-gradient-morph-button {
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f59e0b, #ec4899, #8b5cf6);
+  background-size: 200% 200%;
+  box-shadow: 0 6px 20px rgba(236, 72, 153, 0.35);
+  animation: cssa-gradient-morph-button-shift 5s ease infinite;
+  transition: transform 0.25s ease;
+}
+
+.cssa-gradient-morph-button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes cssa-gradient-morph-button-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}

@@ -1,9 +1,10 @@
 .cssa-pacman-loader {
   position: relative;
-  width: 64px;
+  width: 80px;
   height: 32px;
 }
 
+/* Pac-Man body */
 .cssa-pacman-loader::before {
   content: "";
   position: absolute;
@@ -12,25 +13,54 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #fbbf24;
-  clip-path: polygon(100% 0%, 100% 35%, 50% 50%, 100% 65%, 100% 100%, 0% 100%, 0% 0%);
-  animation: cssa-pacman-loader-chomp 0.5s ease-in-out infinite alternate;
+  background: radial-gradient(circle at 35% 35%, #fde047, #fbbf24 70%, #f59e0b);
+  box-shadow:
+    inset 0 -3px 6px rgba(180, 83, 9, 0.4),
+    0 0 12px rgba(251, 191, 36, 0.5);
+  clip-path: polygon(100% 0%, 100% 38%, 50% 50%, 100% 62%, 100% 100%, 0% 100%, 0% 0%);
+  animation: cssa-pacman-loader-chomp 0.4s ease-in-out infinite alternate;
 }
 
+/* Pac-Man eye */
 .cssa-pacman-loader::after {
   content: "";
   position: absolute;
+  left: 10px;
+  top: 6px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #1e1b4b;
+  z-index: 2;
+}
+
+/* Dots being eaten */
+.cssa-pacman-loader span {
+  position: absolute;
   top: 50%;
-  right: 4px;
   width: 6px;
   height: 6px;
   margin-top: -3px;
   border-radius: 50%;
+  animation: cssa-pacman-loader-dots 1.6s linear infinite;
+}
+
+.cssa-pacman-loader span:nth-child(1) {
   background: #ef4444;
-  box-shadow:
-    -12px 0 0 #38bdf8,
-    -24px 0 0 #a78bfa;
-  animation: cssa-pacman-loader-dots 1.5s linear infinite;
+  box-shadow: 0 0 6px rgba(239, 68, 68, 0.6);
+  animation-delay: 0s;
+}
+
+.cssa-pacman-loader span:nth-child(2) {
+  background: #38bdf8;
+  box-shadow: 0 0 6px rgba(56, 189, 248, 0.6);
+  animation-delay: 0.5s;
+}
+
+.cssa-pacman-loader span:nth-child(3) {
+  background: #a78bfa;
+  box-shadow: 0 0 6px rgba(167, 139, 250, 0.6);
+  animation-delay: 1s;
 }
 
 @keyframes cssa-pacman-loader-chomp {
@@ -38,17 +68,24 @@
     clip-path: polygon(100% 0%, 100% 50%, 50% 50%, 100% 50%, 100% 100%, 0% 100%, 0% 0%);
   }
   100% {
-    clip-path: polygon(100% 0%, 100% 35%, 50% 50%, 100% 65%, 100% 100%, 0% 100%, 0% 0%);
+    clip-path: polygon(100% 0%, 100% 32%, 50% 50%, 100% 68%, 100% 100%, 0% 100%, 0% 0%);
   }
 }
 
 @keyframes cssa-pacman-loader-dots {
   0% {
-    transform: translateX(0);
+    right: 0%;
+    transform: scale(1);
     opacity: 1;
   }
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  85%,
   100% {
-    transform: translateX(-36px);
+    right: 60%;
+    transform: scale(0);
     opacity: 0;
   }
 }

@@ -1,0 +1,28 @@
+.cssa-neon-button {
+  position: relative;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00f0ff;
+  background: transparent;
+  border: 2px solid #00f0ff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.8);
+  box-shadow:
+    0 0 6px rgba(0, 240, 255, 0.6),
+    inset 0 0 6px rgba(0, 240, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.cssa-neon-button:hover {
+  color: #0a0a12;
+  background: #00f0ff;
+  text-shadow: none;
+  box-shadow:
+    0 0 22px rgba(0, 240, 255, 0.9),
+    0 0 45px rgba(0, 240, 255, 0.6),
+    inset 0 0 12px rgba(255, 255, 255, 0.6);
+}

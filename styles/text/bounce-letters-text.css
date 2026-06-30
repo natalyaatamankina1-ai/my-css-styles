@@ -1,0 +1,20 @@
+.cssa-bounce-letters-text {
+  font-size: 40px;
+  font-weight: 800;
+  color: #7c3aed;
+}
+
+.cssa-bounce-letters-text span {
+  display: inline-block;
+  animation: cssa-bounce-letters-text-up 1.6s ease-in-out infinite;
+}
+
+@keyframes cssa-bounce-letters-text-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-18px);
+  }
+}

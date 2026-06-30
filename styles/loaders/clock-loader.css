@@ -1,35 +1,82 @@
 .cssa-clock-loader {
   position: relative;
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ffffff, #e2e8f0 60%, #cbd5e1);
   border: 4px solid #0f172a;
-  background: #f8fafc;
+  box-shadow:
+    inset 0 0 0 2px #94a3b8,
+    0 6px 14px rgba(15, 23, 42, 0.25);
 }
 
-.cssa-clock-loader::before,
+/* Tick marks at 12 / 3 / 6 / 9 via a single conic repeating ring */
+.cssa-clock-loader::before {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  background:
+    conic-gradient(
+      from 0deg,
+      #0f172a 0 2deg,
+      transparent 2deg 88deg,
+      #0f172a 88deg 92deg,
+      transparent 92deg 178deg,
+      #0f172a 178deg 182deg,
+      transparent 182deg 268deg,
+      #0f172a 268deg 272deg,
+      transparent 272deg 358deg,
+      #0f172a 358deg 360deg
+    );
+  -webkit-mask: radial-gradient(circle, transparent 58%, #000 60%);
+  mask: radial-gradient(circle, transparent 58%, #000 60%);
+}
+
+/* Hour hand (short, dark) */
 .cssa-clock-loader::after {
   content: "";
   position: absolute;
   bottom: 50%;
   left: 50%;
-  width: 3px;
+  width: 4px;
+  height: 18px;
+  margin-left: -2px;
   background: #0f172a;
-  border-radius: 3px;
+  border-radius: 4px;
   transform-origin: bottom center;
+  animation: cssa-clock-loader-hour 6s linear infinite;
+  z-index: 2;
 }
 
-.cssa-clock-loader::before {
-  height: 20px;
-  margin-left: -1.5px;
-  animation: cssa-clock-loader-hour 4s linear infinite;
-}
-
-.cssa-clock-loader::after {
+/* Minute hand via inner element */
+.cssa-clock-loader span {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 3px;
   height: 26px;
   margin-left: -1.5px;
   background: #ef4444;
-  animation: cssa-clock-loader-minute 1s linear infinite;
+  border-radius: 3px;
+  transform-origin: bottom center;
+  animation: cssa-clock-loader-minute 1.5s linear infinite;
+  z-index: 3;
+  box-shadow: 0 0 4px rgba(239, 68, 68, 0.4);
+}
+
+/* Center cap */
+.cssa-clock-loader span::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  border-radius: 50%;
+  background: #0f172a;
+  border: 2px solid #ef4444;
 }
 
 @keyframes cssa-clock-loader-hour {

@@ -1,0 +1,493 @@
+{
+  "source": "local",
+  "githubNote": "CSS source files live in src/data/styles and are served via /api/styles. The API can be pointed at a GitHub raw URL by changing STYLES_SOURCE / the resolver in src/lib/styles.ts.",
+  "categories": ["Buttons", "Loaders", "Text", "Cards", "Backgrounds"],
+  "styles": [
+    {
+      "id": "pulse-glow-button",
+      "name": "Pulse Glow Button",
+      "category": "Buttons",
+      "description": "A call-to-action button with an expanding pulsing glow halo.",
+      "file": "buttons/pulse-glow-button.css",
+      "html": "<button class=\"cssa-pulse-glow-button\">Click Me</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "gradient-shift-button",
+      "name": "Gradient Shift Button",
+      "category": "Buttons",
+      "description": "Button with a multi-color gradient that flows continuously.",
+      "file": "buttons/gradient-shift-button.css",
+      "html": "<button class=\"cssa-gradient-shift-button\">Get Started</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "neon-button",
+      "name": "Neon Button",
+      "category": "Buttons",
+      "description": "Cyberpunk-style neon outline that floods with light on hover.",
+      "file": "buttons/neon-button.css",
+      "html": "<button class=\"cssa-neon-button\">Neon</button>",
+      "darkPreview": true
+    },
+    {
+      "id": "press-3d-button",
+      "name": "3D Press Button",
+      "category": "Buttons",
+      "description": "Chunky 3D button that physically depresses when clicked.",
+      "file": "buttons/press-3d-button.css",
+      "html": "<button class=\"cssa-press-3d-button\">Press Me</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "shine-sweep-button",
+      "name": "Shine Sweep Button",
+      "category": "Buttons",
+      "description": "Dark button with a glossy light sweep on hover.",
+      "file": "buttons/shine-sweep-button.css",
+      "html": "<button class=\"cssa-shine-sweep-button\">Hover Me</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "liquid-button",
+      "name": "Liquid Button",
+      "category": "Buttons",
+      "description": "Pill button with a liquid blob that expands behind it on hover.",
+      "file": "buttons/liquid-button.css",
+      "html": "<button class=\"cssa-liquid-button\">Liquid</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "spinner-loader",
+      "name": "Spinner Loader",
+      "category": "Loaders",
+      "description": "Classic rotating ring loading indicator.",
+      "file": "loaders/spinner-loader.css",
+      "html": "<div class=\"cssa-spinner-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "bouncing-dots-loader",
+      "name": "Bouncing Dots Loader",
+      "category": "Loaders",
+      "description": "Three colored dots bouncing in sequence.",
+      "file": "loaders/bouncing-dots-loader.css",
+      "html": "<div class=\"cssa-bouncing-dots-loader\"><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "pulse-rings-loader",
+      "name": "Pulse Rings Loader",
+      "category": "Loaders",
+      "description": "Concentric rings expanding outward in a radar pulse.",
+      "file": "loaders/pulse-rings-loader.css",
+      "html": "<div class=\"cssa-pulse-rings-loader\"><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "bar-wave-loader",
+      "name": "Bar Wave Loader",
+      "category": "Loaders",
+      "description": "Equalizer-style bars waving up and down.",
+      "file": "loaders/bar-wave-loader.css",
+      "html": "<div class=\"cssa-bar-wave-loader\"><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "orbit-loader",
+      "name": "Orbit Loader",
+      "category": "Loaders",
+      "description": "Three colored dots orbiting a central point.",
+      "file": "loaders/orbit-loader.css",
+      "html": "<div class=\"cssa-orbit-loader\"><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "square-flip-loader",
+      "name": "Square Flip Loader",
+      "category": "Loaders",
+      "description": "A cube that flips through 3D space while shifting color.",
+      "file": "loaders/square-flip-loader.css",
+      "html": "<div class=\"cssa-square-flip-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "gradient-text",
+      "name": "Gradient Text",
+      "category": "Text",
+      "description": "Bold text with an animated flowing gradient fill.",
+      "file": "text/gradient-text.css",
+      "html": "<div class=\"cssa-gradient-text\">Gradient</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "typewriter-text",
+      "name": "Typewriter Text",
+      "category": "Text",
+      "description": "Text that types itself out with a blinking cursor.",
+      "file": "text/typewriter-text.css",
+      "html": "<div class=\"cssa-typewriter-text\">Hello, World!</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "glitch-text",
+      "name": "Glitch Text",
+      "category": "Text",
+      "description": "Digital glitch effect with RGB channel splitting.",
+      "file": "text/glitch-text.css",
+      "html": "<div class=\"cssa-glitch-text\" data-text=\"GLITCH\">GLITCH</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "wave-text",
+      "name": "Wave Text",
+      "category": "Text",
+      "description": "Each letter bounces in a wave and shifts color.",
+      "file": "text/wave-text.css",
+      "html": "<div class=\"cssa-wave-text\"><span style=\"animation-delay:0s\">W</span><span style=\"animation-delay:0.1s\">A</span><span style=\"animation-delay:0.2s\">V</span><span style=\"animation-delay:0.3s\">E</span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "neon-flicker-text",
+      "name": "Neon Flicker Text",
+      "category": "Text",
+      "description": "Glowing neon sign text with a realistic flicker.",
+      "file": "text/neon-flicker-text.css",
+      "html": "<div class=\"cssa-neon-flicker-text\">NEON</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "flip-card",
+      "name": "Flip Card",
+      "category": "Cards",
+      "description": "Card that rotates 180° in 3D to reveal its back on hover.",
+      "file": "cards/flip-card.css",
+      "html": "<div class=\"cssa-flip-card\"><div class=\"cssa-flip-card-inner\"><div class=\"cssa-flip-card-front\">Front</div><div class=\"cssa-flip-card-back\">Back</div></div></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "lift-glow-card",
+      "name": "Lift Glow Card",
+      "category": "Cards",
+      "description": "Card lifts up with a colored glow on hover.",
+      "file": "cards/lift-glow-card.css",
+      "html": "<div class=\"cssa-lift-glow-card\"><div class=\"cssa-lift-glow-card-title\">Hover Me</div><div class=\"cssa-lift-glow-card-text\">Lifts up with a glow</div></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "border-trace-card",
+      "name": "Border Trace Card",
+      "category": "Cards",
+      "description": "Card with a conic gradient border that rotates continuously.",
+      "file": "cards/border-trace-card.css",
+      "html": "<div class=\"cssa-border-trace-card\"><div class=\"cssa-border-trace-card-title\">Trace</div><div class=\"cssa-border-trace-card-text\">Animated border</div></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "shine-card",
+      "name": "Shine Card",
+      "category": "Cards",
+      "description": "Card with a diagonal light shine sweeping across on hover.",
+      "file": "cards/shine-card.css",
+      "html": "<div class=\"cssa-shine-card\"><div class=\"cssa-shine-card-title\">Shine</div><div class=\"cssa-shine-card-text\">Diagonal sweep</div></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "animated-gradient-bg",
+      "name": "Animated Gradient Background",
+      "category": "Backgrounds",
+      "description": "Smoothly shifting multi-color gradient background.",
+      "file": "backgrounds/animated-gradient-bg.css",
+      "html": "<div class=\"cssa-animated-gradient-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "aurora-bg",
+      "name": "Aurora Background",
+      "category": "Backgrounds",
+      "description": "Swirling aurora borealis effect with blurred color blobs.",
+      "file": "backgrounds/aurora-bg.css",
+      "html": "<div class=\"cssa-aurora-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "floating-orbs-bg",
+      "name": "Floating Orbs Background",
+      "category": "Backgrounds",
+      "description": "Soft glowing orbs floating around a dark canvas.",
+      "file": "backgrounds/floating-orbs-bg.css",
+      "html": "<div class=\"cssa-floating-orbs-bg\"><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "grid-pulse-bg",
+      "name": "Grid Pulse Background",
+      "category": "Backgrounds",
+      "description": "Tech-style grid that pulses in brightness and color.",
+      "file": "backgrounds/grid-pulse-bg.css",
+      "html": "<div class=\"cssa-grid-pulse-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "rainbow-border-button",
+      "name": "Rainbow Border Button",
+      "category": "Buttons",
+      "description": "Button framed by a continuously rotating rainbow conic border.",
+      "file": "buttons/rainbow-border-button.css",
+      "html": "<button class=\"cssa-rainbow-border-button\">Rainbow</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "slide-fill-button",
+      "name": "Slide Fill Button",
+      "category": "Buttons",
+      "description": "Outlined button whose background slides in from the left on hover.",
+      "file": "buttons/slide-fill-button.css",
+      "html": "<button class=\"cssa-slide-fill-button\">Slide Fill</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "underline-grow-button",
+      "name": "Underline Grow Button",
+      "category": "Buttons",
+      "description": "Text button with a gradient underline that grows across on hover.",
+      "file": "buttons/underline-grow-button.css",
+      "html": "<button class=\"cssa-underline-grow-button\">Hover Me</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "skew-stretch-button",
+      "name": "Skew Stretch Button",
+      "category": "Buttons",
+      "description": "Button that gently skews and stretches in a continuous wobble.",
+      "file": "buttons/skew-stretch-button.css",
+      "html": "<button class=\"cssa-skew-stretch-button\">Wobble</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "dual-ring-loader",
+      "name": "Dual Ring Loader",
+      "category": "Loaders",
+      "description": "Two rings spinning in opposite directions, layered.",
+      "file": "loaders/dual-ring-loader.css",
+      "html": "<div class=\"cssa-dual-ring-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "dot-circle-loader",
+      "name": "Dot Circle Loader",
+      "category": "Loaders",
+      "description": "A ring of dots with a fading tail that chases itself around.",
+      "file": "loaders/dot-circle-loader.css",
+      "html": "<div class=\"cssa-dot-circle-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "heartbeat-loader",
+      "name": "Heartbeat Loader",
+      "category": "Loaders",
+      "description": "A beating heart that pulses with a lifelike rhythm.",
+      "file": "loaders/heartbeat-loader.css",
+      "html": "<div class=\"cssa-heartbeat-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "dots-fade-loader",
+      "name": "Dots Fade Loader",
+      "category": "Loaders",
+      "description": "A row of dots fading and scaling in a soft sequence.",
+      "file": "loaders/dots-fade-loader.css",
+      "html": "<div class=\"cssa-dots-fade-loader\"><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "shimmer-text",
+      "name": "Shimmer Text",
+      "category": "Text",
+      "description": "Metallic text with a light sweep travelling across it.",
+      "file": "text/shimmer-text.css",
+      "html": "<div class=\"cssa-shimmer-text\">Shimmer</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "text-3d-shadow",
+      "name": "3D Shadow Text",
+      "category": "Text",
+      "description": "Bold extruded text with layered shadows and a gentle float.",
+      "file": "text/text-3d-shadow.css",
+      "html": "<div class=\"cssa-text-3d-shadow\">3D</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "blur-reveal-text",
+      "name": "Blur Reveal Text",
+      "category": "Text",
+      "description": "Text that drifts in and out of focus while letters tighten.",
+      "file": "text/blur-reveal-text.css",
+      "html": "<div class=\"cssa-blur-reveal-text\">Reveal</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "spotlight-card",
+      "name": "Spotlight Card",
+      "category": "Cards",
+      "description": "Dark card with a glowing spotlight that roams across its surface.",
+      "file": "cards/spotlight-card.css",
+      "html": "<div class=\"cssa-spotlight-card\"><span>Spotlight</span></div>",
+      "darkPreview": true
+    },
+    {
+      "id": "tilt-card",
+      "name": "3D Tilt Card",
+      "category": "Cards",
+      "description": "Card that tilts back in 3D perspective on hover.",
+      "file": "cards/tilt-card.css",
+      "html": "<div class=\"cssa-tilt-card\">Tilt</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "morph-card",
+      "name": "Morph Card",
+      "category": "Cards",
+      "description": "Organic blob card whose border-radius morphs continuously.",
+      "file": "cards/morph-card.css",
+      "html": "<div class=\"cssa-morph-card\">Morph</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "matrix-rain-bg",
+      "name": "Matrix Rain Background",
+      "category": "Backgrounds",
+      "description": "Classic digital rain of glowing green streaks falling.",
+      "file": "backgrounds/matrix-rain-bg.css",
+      "html": "<div class=\"cssa-matrix-rain-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "starfield-bg",
+      "name": "Starfield Background",
+      "category": "Backgrounds",
+      "description": "Deep-space backdrop with twinkling stars at varied rhythms.",
+      "file": "backgrounds/starfield-bg.css",
+      "html": "<div class=\"cssa-starfield-bg\"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "rain-drops-bg",
+      "name": "Rain Drops Background",
+      "category": "Backgrounds",
+      "description": "Diagonal rain streaks scrolling down a stormy sky.",
+      "file": "backgrounds/rain-drops-bg.css",
+      "html": "<div class=\"cssa-rain-drops-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "magnetic-button",
+      "name": "Magnetic Button",
+      "category": "Buttons",
+      "description": "Pill button whose arrow icon slides forward on hover.",
+      "file": "buttons/magnetic-button.css",
+      "html": "<button class=\"cssa-magnetic-button\">Continue <span class=\"cssa-magnetic-button-arrow\">→</span></button>",
+      "darkPreview": false
+    },
+    {
+      "id": "bounce-button",
+      "name": "Bounce Button",
+      "category": "Buttons",
+      "description": "Button that bounces gently up and down forever.",
+      "file": "buttons/bounce-button.css",
+      "html": "<button class=\"cssa-bounce-button\">Bounce</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "glow-ring-button",
+      "name": "Glow Ring Button",
+      "category": "Buttons",
+      "description": "White button surrounded by a rotating blurred rainbow glow.",
+      "file": "buttons/glow-ring-button.css",
+      "html": "<button class=\"cssa-glow-ring-button\">Glow Ring</button>",
+      "darkPreview": false
+    },
+    {
+      "id": "wifi-loader",
+      "name": "Wifi Loader",
+      "category": "Loaders",
+      "description": "Expanding wifi arcs pulsing outward like a connecting signal.",
+      "file": "loaders/wifi-loader.css",
+      "html": "<div class=\"cssa-wifi-loader\"><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "progress-bar-loader",
+      "name": "Progress Bar Loader",
+      "category": "Loaders",
+      "description": "Indeterminate progress bar with a sliding gradient chunk.",
+      "file": "loaders/progress-bar-loader.css",
+      "html": "<div class=\"cssa-progress-bar-loader\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "rainbow-cycle-text",
+      "name": "Rainbow Cycle Text",
+      "category": "Text",
+      "description": "Solid text cycling through the full rainbow over time.",
+      "file": "text/rainbow-cycle-text.css",
+      "html": "<div class=\"cssa-rainbow-cycle-text\">Rainbow</div>",
+      "darkPreview": false
+    },
+    {
+      "id": "fire-text",
+      "name": "Fire Text",
+      "category": "Text",
+      "description": "Text with a flickering multi-layer fire glow underneath.",
+      "file": "text/fire-text.css",
+      "html": "<div class=\"cssa-fire-text\">FIRE</div>",
+      "darkPreview": true
+    },
+    {
+      "id": "glass-card",
+      "name": "Glassmorphism Card",
+      "category": "Cards",
+      "description": "Frosted-glass card with blur, transparency and a soft border.",
+      "file": "cards/glass-card.css",
+      "html": "<div class=\"cssa-glass-card\"><div class=\"cssa-glass-card-title\">Glass</div><div class=\"cssa-glass-card-text\">Frosted blur surface</div></div>",
+      "darkPreview": true
+    },
+    {
+      "id": "content-reveal-card",
+      "name": "Content Reveal Card",
+      "category": "Cards",
+      "description": "Card whose overlay slides up to reveal caption on hover.",
+      "file": "cards/content-reveal-card.css",
+      "html": "<div class=\"cssa-content-reveal-card\"><div class=\"cssa-content-reveal-card-visual\">Hover</div><div class=\"cssa-content-reveal-card-overlay\"><div class=\"cssa-content-reveal-card-title\">Revealed</div><div class=\"cssa-content-reveal-card-text\">Caption slides up</div></div></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "mesh-gradient-bg",
+      "name": "Mesh Gradient Background",
+      "category": "Backgrounds",
+      "description": "Living mesh of overlapping color blobs that drift around.",
+      "file": "backgrounds/mesh-gradient-bg.css",
+      "html": "<div class=\"cssa-mesh-gradient-bg\"></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "falling-petals-bg",
+      "name": "Falling Petals Background",
+      "category": "Backgrounds",
+      "description": "Soft pink petals spinning as they drift downward.",
+      "file": "backgrounds/falling-petals-bg.css",
+      "html": "<div class=\"cssa-falling-petals-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false
+    },
+    {
+      "id": "wave-bg",
+      "name": "Wave Background",
+      "category": "Backgrounds",
+      "description": "Two rolling wave layers swirling like ocean current.",
+      "file": "backgrounds/wave-bg.css",
+      "html": "<div class=\"cssa-wave-bg\"></div>",
+      "darkPreview": false
+    }
+  ]
+}

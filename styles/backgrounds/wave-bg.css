@@ -1,0 +1,39 @@
+.cssa-wave-bg {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #38bdf8, #0369a1);
+}
+
+.cssa-wave-bg::before,
+.cssa-wave-bg::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -40%;
+  width: 200%;
+  height: 100%;
+  border-radius: 38% 62% 70% 30% / 40% 50% 60% 50%;
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateX(-50%);
+  animation: cssa-wave-bg-roll 8s linear infinite;
+}
+
+.cssa-wave-bg::after {
+  bottom: -55%;
+  width: 220%;
+  background: rgba(255, 255, 255, 0.22);
+  animation-duration: 11s;
+  animation-direction: reverse;
+}
+
+@keyframes cssa-wave-bg-roll {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}

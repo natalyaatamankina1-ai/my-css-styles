@@ -2,30 +2,30 @@
   font-size: 44px;
   font-weight: 800;
   letter-spacing: -1px;
-  color: #f43f5e;
-  animation: cssa-rainbow-cycle-text-hue 4s linear infinite;
+  background: linear-gradient(
+    90deg,
+    #f43f5e,
+    #f97316,
+    #eab308,
+    #22c55e,
+    #06b6d4,
+    #8b5cf6,
+    #ec4899,
+    #f43f5e
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: cssa-rainbow-cycle-text-flow 4s linear infinite;
+  filter: drop-shadow(0 2px 8px rgba(236, 72, 153, 0.25));
 }
 
-@keyframes cssa-rainbow-cycle-text-hue {
+@keyframes cssa-rainbow-cycle-text-flow {
   0% {
-    color: #f43f5e;
-  }
-  16% {
-    color: #f97316;
-  }
-  33% {
-    color: #eab308;
-  }
-  50% {
-    color: #22c55e;
-  }
-  66% {
-    color: #06b6d4;
-  }
-  83% {
-    color: #8b5cf6;
+    background-position: 0% 50%;
   }
   100% {
-    color: #f43f5e;
+    background-position: 300% 50%;
   }
 }

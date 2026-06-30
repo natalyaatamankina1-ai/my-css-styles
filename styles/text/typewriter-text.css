@@ -1,0 +1,31 @@
+.cssa-typewriter-text {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Courier New", monospace;
+  color: #10b981;
+  border-right: 3px solid #10b981;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: cssa-typewriter-text-type 3.5s steps(13) infinite,
+    cssa-typewriter-text-blink 0.7s step-end infinite;
+}
+
+@keyframes cssa-typewriter-text-type {
+  0% {
+    width: 0;
+  }
+  40%,
+  60% {
+    width: 13ch;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes cssa-typewriter-text-blink {
+  50% {
+    border-color: transparent;
+  }
+}

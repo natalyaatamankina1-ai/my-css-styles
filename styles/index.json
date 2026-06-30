@@ -108,7 +108,7 @@
       "category": "Loaders",
       "description": "A cube that flips through 3D space while shifting color.",
       "file": "loaders/square-flip-loader.css",
-      "html": "<div class=\"cssa-square-flip-loader\"></div>",
+      "html": "<div class=\"cssa-square-flip-loader\"><span></span><span></span><span></span><span></span></div>",
       "darkPreview": false
     },
     {
@@ -549,7 +549,7 @@
       "category": "Buttons",
       "description": "Red 3D button that physically pushes down when clicked.",
       "file": "buttons/push-down-button.css",
-      "html": "<button class=\"cssa-push-down-button\">Push</button>",
+      "html": "<button class=\"cssa-push-down-button\"><span class=\"cssa-push-down-button-icon\">▼</span>Push</button>",
       "darkPreview": false
     },
     {
@@ -585,7 +585,7 @@
       "category": "Loaders",
       "description": "Clock face with hour and minute hands spinning at different speeds.",
       "file": "loaders/clock-loader.css",
-      "html": "<div class=\"cssa-clock-loader\"></div>",
+      "html": "<div class=\"cssa-clock-loader\"><span></span></div>",
       "darkPreview": false
     },
     {

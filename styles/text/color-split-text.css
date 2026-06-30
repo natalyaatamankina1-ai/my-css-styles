@@ -1,0 +1,22 @@
+.cssa-color-split-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow:
+    -3px 0 #ef4444,
+    3px 0 #22d3ee;
+  animation: cssa-color-split-text-jitter 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes cssa-color-split-text-jitter {
+  0% {
+    text-shadow:
+      -2px 0 #ef4444,
+      2px 0 #22d3ee;
+  }
+  100% {
+    text-shadow:
+      -5px 0 #f43f5e,
+      5px 0 #06b6d4;
+  }
+}

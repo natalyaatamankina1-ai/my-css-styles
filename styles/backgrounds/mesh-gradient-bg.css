@@ -1,0 +1,59 @@
+@property --cssa-mesh-mx {
+  syntax: "<percentage>";
+  initial-value: 30%;
+  inherits: false;
+}
+@property --cssa-mesh-my {
+  syntax: "<percentage>";
+  initial-value: 30%;
+  inherits: false;
+}
+
+.cssa-mesh-gradient-bg {
+  width: 280px;
+  height: 160px;
+  border-radius: 16px;
+  background:
+    radial-gradient(
+      circle at var(--cssa-mesh-mx) var(--cssa-mesh-my),
+      #f472b6,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at calc(100% - var(--cssa-mesh-mx)) var(--cssa-mesh-my),
+      #38bdf8,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at var(--cssa-mesh-mx) calc(100% - var(--cssa-mesh-my)),
+      #fbbf24,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at calc(100% - var(--cssa-mesh-mx)) calc(100% - var(--cssa-mesh-my)),
+      #34d399,
+      transparent 45%
+    ),
+    #1e1b4b;
+  animation:
+    cssa-mesh-gradient-bg-x 9s ease-in-out infinite alternate,
+    cssa-mesh-gradient-bg-y 11s ease-in-out infinite alternate;
+}
+
+@keyframes cssa-mesh-gradient-bg-x {
+  0% {
+    --cssa-mesh-mx: 15%;
+  }
+  100% {
+    --cssa-mesh-mx: 50%;
+  }
+}
+
+@keyframes cssa-mesh-gradient-bg-y {
+  0% {
+    --cssa-mesh-my: 20%;
+  }
+  100% {
+    --cssa-mesh-my: 55%;
+  }
+}

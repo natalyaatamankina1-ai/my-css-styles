@@ -1,0 +1,56 @@
+.cssa-reveal-corners-card {
+  position: relative;
+  width: 220px;
+  height: 140px;
+  border-radius: 16px;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.cssa-reveal-corners-card::before,
+.cssa-reveal-corners-card::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #22d3ee;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.cssa-reveal-corners-card::before {
+  top: 10px;
+  left: 10px;
+  border-right: 0;
+  border-bottom: 0;
+  border-top-left-radius: 6px;
+}
+
+.cssa-reveal-corners-card::after {
+  bottom: 10px;
+  right: 10px;
+  border-left: 0;
+  border-top: 0;
+  border-bottom-right-radius: 6px;
+}
+
+.cssa-reveal-corners-card:hover::before,
+.cssa-reveal-corners-card:hover::after {
+  opacity: 1;
+}
+
+.cssa-reveal-corners-card:hover::before {
+  top: 6px;
+  left: 6px;
+}
+
+.cssa-reveal-corners-card:hover::after {
+  bottom: 6px;
+  right: 6px;
+}

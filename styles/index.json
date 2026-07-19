@@ -1,7 +1,13 @@
 {
   "source": "local",
   "githubNote": "CSS source files live in src/data/styles and are served via /api/styles. The API can be pointed at a GitHub raw URL by changing STYLES_SOURCE / the resolver in src/lib/styles.ts.",
-  "categories": ["Buttons", "Loaders", "Text", "Cards", "Backgrounds"],
+  "categories": [
+    "Buttons",
+    "Loaders",
+    "Text",
+    "Cards",
+    "Backgrounds"
+  ],
   "styles": [
     {
       "id": "pulse-glow-button",
@@ -10,7 +16,9 @@
       "description": "A call-to-action button with an expanding pulsing glow halo.",
       "file": "buttons/pulse-glow-button.css",
       "html": "<button class=\"cssa-pulse-glow-button\">Click Me</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с пульсирующим свечением",
+      "description_ru": "Кнопка призыва к действию с расширяющимся пульсирующим ореолом."
     },
     {
       "id": "gradient-shift-button",
@@ -19,7 +27,9 @@
       "description": "Button with a multi-color gradient that flows continuously.",
       "file": "buttons/gradient-shift-button.css",
       "html": "<button class=\"cssa-gradient-shift-button\">Get Started</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с переливающимся градиентом",
+      "description_ru": "Кнопка с многоцветным градиентом, который непрерывно течёт."
     },
     {
       "id": "neon-button",
@@ -28,7 +38,9 @@
       "description": "Cyberpunk-style neon outline that floods with light on hover.",
       "file": "buttons/neon-button.css",
       "html": "<button class=\"cssa-neon-button\">Neon</button>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Неоновая кнопка",
+      "description_ru": "Киберпанк-кнопка с неоновым контуром, заливающаяся светом при наведении."
     },
     {
       "id": "press-3d-button",
@@ -37,7 +49,9 @@
       "description": "Chunky 3D button that physically depresses when clicked.",
       "file": "buttons/press-3d-button.css",
       "html": "<button class=\"cssa-press-3d-button\">Press Me</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "3D-кнопка с нажатием",
+      "description_ru": "Объёмная кнопка, которая физически утапливается при нажатии."
     },
     {
       "id": "shine-sweep-button",
@@ -46,7 +60,9 @@
       "description": "Dark button with a glossy light sweep on hover.",
       "file": "buttons/shine-sweep-button.css",
       "html": "<button class=\"cssa-shine-sweep-button\">Hover Me</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с бликовым проходом",
+      "description_ru": "Тёмная кнопка с глянцевым проходом света при наведении."
     },
     {
       "id": "liquid-button",
@@ -55,7 +71,9 @@
       "description": "Pill button with a liquid blob that expands behind it on hover.",
       "file": "buttons/liquid-button.css",
       "html": "<button class=\"cssa-liquid-button\">Liquid</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Жидкая кнопка",
+      "description_ru": "Кнопка-пилюля с жидким пятном, расширяющимся позади при наведении."
     },
     {
       "id": "spinner-loader",
@@ -64,7 +82,9 @@
       "description": "Classic rotating ring loading indicator.",
       "file": "loaders/spinner-loader.css",
       "html": "<div class=\"cssa-spinner-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Спиннер-загрузчик",
+      "description_ru": "Классический вращающийся кольцевой индикатор загрузки."
     },
     {
       "id": "bouncing-dots-loader",
@@ -73,7 +93,9 @@
       "description": "Three colored dots bouncing in sequence.",
       "file": "loaders/bouncing-dots-loader.css",
       "html": "<div class=\"cssa-bouncing-dots-loader\"><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик прыгающих точек",
+      "description_ru": "Три цветные точки, прыгающие по очереди."
     },
     {
       "id": "pulse-rings-loader",
@@ -82,7 +104,9 @@
       "description": "Concentric rings expanding outward in a radar pulse.",
       "file": "loaders/pulse-rings-loader.css",
       "html": "<div class=\"cssa-pulse-rings-loader\"><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик пульсирующих колец",
+      "description_ru": "Концентрические кольца, расширяющиеся наружу радарной пульсацией."
     },
     {
       "id": "bar-wave-loader",
@@ -91,7 +115,9 @@
       "description": "Equalizer-style bars waving up and down.",
       "file": "loaders/bar-wave-loader.css",
       "html": "<div class=\"cssa-bar-wave-loader\"><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик волновых полос",
+      "description_ru": "Полосы эквалайзера, колышущиеся вверх-вниз."
     },
     {
       "id": "orbit-loader",
@@ -100,7 +126,9 @@
       "description": "Three colored dots orbiting a central point.",
       "file": "loaders/orbit-loader.css",
       "html": "<div class=\"cssa-orbit-loader\"><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик орбиты",
+      "description_ru": "Три цветные точки, вращающиеся вокруг центральной точки."
     },
     {
       "id": "square-flip-loader",
@@ -108,8 +136,10 @@
       "category": "Loaders",
       "description": "A cube that flips through 3D space while shifting color.",
       "file": "loaders/square-flip-loader.css",
-      "html": "<div class=\"cssa-square-flip-loader\"><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "html": "<div class=\"cssa-square-flip-loader\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "darkPreview": false,
+      "name_ru": "Загрузчик переворачивающегося куба",
+      "description_ru": "Куб, переворачивающийся в 3D-пространстве со сменой цвета граней."
     },
     {
       "id": "gradient-text",
@@ -118,7 +148,9 @@
       "description": "Bold text with an animated flowing gradient fill.",
       "file": "text/gradient-text.css",
       "html": "<div class=\"cssa-gradient-text\">Gradient</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Градиентный текст",
+      "description_ru": "Жирный текст с анимированным переливающимся градиентным заполнением."
     },
     {
       "id": "typewriter-text",
@@ -127,7 +159,9 @@
       "description": "Text that types itself out with a blinking cursor.",
       "file": "text/typewriter-text.css",
       "html": "<div class=\"cssa-typewriter-text\">Hello, World!</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Текст печатной машинки",
+      "description_ru": "Текст, печатающий сам себя с мигающим курсором."
     },
     {
       "id": "glitch-text",
@@ -136,7 +170,9 @@
       "description": "Digital glitch effect with RGB channel splitting.",
       "file": "text/glitch-text.css",
       "html": "<div class=\"cssa-glitch-text\" data-text=\"GLITCH\">GLITCH</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Глитч-текст",
+      "description_ru": "Цифровой глитч-эффект с разделением RGB-каналов."
     },
     {
       "id": "wave-text",
@@ -145,7 +181,9 @@
       "description": "Each letter bounces in a wave and shifts color.",
       "file": "text/wave-text.css",
       "html": "<div class=\"cssa-wave-text\"><span style=\"animation-delay:0s\">W</span><span style=\"animation-delay:0.1s\">A</span><span style=\"animation-delay:0.2s\">V</span><span style=\"animation-delay:0.3s\">E</span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Волновой текст",
+      "description_ru": "Каждая буква подпрыгивает волной и меняет цвет."
     },
     {
       "id": "neon-flicker-text",
@@ -154,7 +192,9 @@
       "description": "Glowing neon sign text with a realistic flicker.",
       "file": "text/neon-flicker-text.css",
       "html": "<div class=\"cssa-neon-flicker-text\">NEON</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Неоновый мерцающий текст",
+      "description_ru": "Светящийся неоновый текст с реалистичным мерцанием."
     },
     {
       "id": "flip-card",
@@ -163,7 +203,9 @@
       "description": "Card that rotates 180° in 3D to reveal its back on hover.",
       "file": "cards/flip-card.css",
       "html": "<div class=\"cssa-flip-card\"><div class=\"cssa-flip-card-inner\"><div class=\"cssa-flip-card-front\">Front</div><div class=\"cssa-flip-card-back\">Back</div></div></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Переворачивающаяся карточка",
+      "description_ru": "Карточка, поворачивающаяся на 180° в 3D, открывая обратную сторону."
     },
     {
       "id": "lift-glow-card",
@@ -172,7 +214,9 @@
       "description": "Card lifts up with a colored glow on hover.",
       "file": "cards/lift-glow-card.css",
       "html": "<div class=\"cssa-lift-glow-card\"><div class=\"cssa-lift-glow-card-title\">Hover Me</div><div class=\"cssa-lift-glow-card-text\">Lifts up with a glow</div></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с подъёмом и свечением",
+      "description_ru": "Карточка приподнимается с цветным свечением при наведении."
     },
     {
       "id": "border-trace-card",
@@ -181,7 +225,9 @@
       "description": "Card with a conic gradient border that rotates continuously.",
       "file": "cards/border-trace-card.css",
       "html": "<div class=\"cssa-border-trace-card\"><div class=\"cssa-border-trace-card-title\">Trace</div><div class=\"cssa-border-trace-card-text\">Animated border</div></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с обводкой",
+      "description_ru": "Карточка с коническим градиентным бордюром, непрерывно вращающимся."
     },
     {
       "id": "shine-card",
@@ -190,7 +236,9 @@
       "description": "Card with a diagonal light shine sweeping across on hover.",
       "file": "cards/shine-card.css",
       "html": "<div class=\"cssa-shine-card\"><div class=\"cssa-shine-card-title\">Shine</div><div class=\"cssa-shine-card-text\">Diagonal sweep</div></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Сияющая карточка",
+      "description_ru": "Карточка с диагональным проходом света при наведении."
     },
     {
       "id": "animated-gradient-bg",
@@ -199,7 +247,9 @@
       "description": "Smoothly shifting multi-color gradient background.",
       "file": "backgrounds/animated-gradient-bg.css",
       "html": "<div class=\"cssa-animated-gradient-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон с анимированным градиентом",
+      "description_ru": "Плавно переливающийся многоцветный градиентный фон."
     },
     {
       "id": "aurora-bg",
@@ -208,7 +258,9 @@
       "description": "Swirling aurora borealis effect with blurred color blobs.",
       "file": "backgrounds/aurora-bg.css",
       "html": "<div class=\"cssa-aurora-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон северного сияния",
+      "description_ru": "Эффект северного сияния с размытыми цветными пятнами."
     },
     {
       "id": "floating-orbs-bg",
@@ -217,7 +269,9 @@
       "description": "Soft glowing orbs floating around a dark canvas.",
       "file": "backgrounds/floating-orbs-bg.css",
       "html": "<div class=\"cssa-floating-orbs-bg\"><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон плавающих сфер",
+      "description_ru": "Мягкие светящиеся сферы, парящие на тёмном холсте."
     },
     {
       "id": "grid-pulse-bg",
@@ -226,7 +280,9 @@
       "description": "Tech-style grid that pulses in brightness and color.",
       "file": "backgrounds/grid-pulse-bg.css",
       "html": "<div class=\"cssa-grid-pulse-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон пульсирующей сетки",
+      "description_ru": "Технологичная сетка, пульсирующая яркостью и цветом."
     },
     {
       "id": "rainbow-border-button",
@@ -235,7 +291,9 @@
       "description": "Button framed by a continuously rotating rainbow conic border.",
       "file": "buttons/rainbow-border-button.css",
       "html": "<button class=\"cssa-rainbow-border-button\">Rainbow</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с радужной рамкой",
+      "description_ru": "Кнопка с непрерывно вращающейся радужной конической рамкой."
     },
     {
       "id": "slide-fill-button",
@@ -244,7 +302,9 @@
       "description": "Outlined button whose background slides in from the left on hover.",
       "file": "buttons/slide-fill-button.css",
       "html": "<button class=\"cssa-slide-fill-button\">Slide Fill</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с заливкой слева",
+      "description_ru": "Контурная кнопка, фон которой заезжает слева при наведении."
     },
     {
       "id": "underline-grow-button",
@@ -253,7 +313,9 @@
       "description": "Text button with a gradient underline that grows across on hover.",
       "file": "buttons/underline-grow-button.css",
       "html": "<button class=\"cssa-underline-grow-button\">Hover Me</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с растущим подчёркиванием",
+      "description_ru": "Текстовая кнопка с градиентным подчёркиванием, растущим при наведении."
     },
     {
       "id": "skew-stretch-button",
@@ -262,7 +324,9 @@
       "description": "Button that gently skews and stretches in a continuous wobble.",
       "file": "buttons/skew-stretch-button.css",
       "html": "<button class=\"cssa-skew-stretch-button\">Wobble</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с перекосом и растяжением",
+      "description_ru": "Кнопка с непрерывным покачиванием и искажением."
     },
     {
       "id": "dual-ring-loader",
@@ -271,7 +335,9 @@
       "description": "Two rings spinning in opposite directions, layered.",
       "file": "loaders/dual-ring-loader.css",
       "html": "<div class=\"cssa-dual-ring-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик двойных колец",
+      "description_ru": "Два кольца, вращающихся в противоположных направлениях."
     },
     {
       "id": "dot-circle-loader",
@@ -280,7 +346,9 @@
       "description": "A ring of dots with a fading tail that chases itself around.",
       "file": "loaders/dot-circle-loader.css",
       "html": "<div class=\"cssa-dot-circle-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик кольца точек",
+      "description_ru": "Кольцо точек с затухающим хвостом, догоняющим само себя."
     },
     {
       "id": "heartbeat-loader",
@@ -289,7 +357,9 @@
       "description": "A beating heart that pulses with a lifelike rhythm.",
       "file": "loaders/heartbeat-loader.css",
       "html": "<div class=\"cssa-heartbeat-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик биения сердца",
+      "description_ru": "Бьющееся сердце с живым ритмом пульсации."
     },
     {
       "id": "dots-fade-loader",
@@ -298,7 +368,9 @@
       "description": "A row of dots fading and scaling in a soft sequence.",
       "file": "loaders/dots-fade-loader.css",
       "html": "<div class=\"cssa-dots-fade-loader\"><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик затухающих точек",
+      "description_ru": "Ряд точек с плавным затуханием и масштабированием."
     },
     {
       "id": "shimmer-text",
@@ -307,7 +379,9 @@
       "description": "Metallic text with a light sweep travelling across it.",
       "file": "text/shimmer-text.css",
       "html": "<div class=\"cssa-shimmer-text\">Shimmer</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Мерцающий текст",
+      "description_ru": "Металлический текст с проходящим по нему световым бликом."
     },
     {
       "id": "text-3d-shadow",
@@ -316,7 +390,9 @@
       "description": "Bold extruded text with layered shadows and a gentle float.",
       "file": "text/text-3d-shadow.css",
       "html": "<div class=\"cssa-text-3d-shadow\">3D</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "3D-текст с тенью",
+      "description_ru": "Объёмный текст со слоями теней и мягким парением."
     },
     {
       "id": "blur-reveal-text",
@@ -325,7 +401,9 @@
       "description": "Text that drifts in and out of focus while letters tighten.",
       "file": "text/blur-reveal-text.css",
       "html": "<div class=\"cssa-blur-reveal-text\">Reveal</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Текст с проявлением из размытия",
+      "description_ru": "Текст, проявляющийся из размытия с сжатием межбуквенного интервала."
     },
     {
       "id": "spotlight-card",
@@ -334,7 +412,9 @@
       "description": "Dark card with a glowing spotlight that roams across its surface.",
       "file": "cards/spotlight-card.css",
       "html": "<div class=\"cssa-spotlight-card\"><span>Spotlight</span></div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Карточка с прожектором",
+      "description_ru": "Тёмная карточка со световым пятном, блуждающим по поверхности."
     },
     {
       "id": "tilt-card",
@@ -343,7 +423,9 @@
       "description": "Card that tilts back in 3D perspective on hover.",
       "file": "cards/tilt-card.css",
       "html": "<div class=\"cssa-tilt-card\">Tilt</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "3D-карточка с наклоном",
+      "description_ru": "Карточка, наклоняющаяся в 3D-перспективе при наведении."
     },
     {
       "id": "morph-card",
@@ -352,7 +434,9 @@
       "description": "Organic blob card whose border-radius morphs continuously.",
       "file": "cards/morph-card.css",
       "html": "<div class=\"cssa-morph-card\">Morph</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Морфящая карточка",
+      "description_ru": "Органичная карточка-блоб с непрерывно меняющимся border-radius."
     },
     {
       "id": "matrix-rain-bg",
@@ -361,7 +445,9 @@
       "description": "Classic digital rain of glowing green streaks falling.",
       "file": "backgrounds/matrix-rain-bg.css",
       "html": "<div class=\"cssa-matrix-rain-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон матричного дождя",
+      "description_ru": "Классический цифровой дождь из светящихся зелёных полос."
     },
     {
       "id": "starfield-bg",
@@ -370,7 +456,9 @@
       "description": "Deep-space backdrop with twinkling stars at varied rhythms.",
       "file": "backgrounds/starfield-bg.css",
       "html": "<div class=\"cssa-starfield-bg\"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон звёздного неба",
+      "description_ru": "Космический фон с мерцающими звёздами в разном ритме."
     },
     {
       "id": "rain-drops-bg",
@@ -379,7 +467,9 @@
       "description": "Diagonal rain streaks scrolling down a stormy sky.",
       "file": "backgrounds/rain-drops-bg.css",
       "html": "<div class=\"cssa-rain-drops-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон дождевых капель",
+      "description_ru": "Диагональные полосы дождя, стекающие по грозовому небу."
     },
     {
       "id": "magnetic-button",
@@ -388,7 +478,9 @@
       "description": "Pill button whose arrow icon slides forward on hover.",
       "file": "buttons/magnetic-button.css",
       "html": "<button class=\"cssa-magnetic-button\">Continue <span class=\"cssa-magnetic-button-arrow\">→</span></button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Магнитная кнопка",
+      "description_ru": "Кнопка-пилюля со стрелкой, выезжающей вперёд при наведении."
     },
     {
       "id": "bounce-button",
@@ -397,7 +489,9 @@
       "description": "Button that bounces gently up and down forever.",
       "file": "buttons/bounce-button.css",
       "html": "<button class=\"cssa-bounce-button\">Bounce</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Прыгающая кнопка",
+      "description_ru": "Кнопка, которая мягко подпрыгивает вверх-вниз."
     },
     {
       "id": "glow-ring-button",
@@ -406,7 +500,9 @@
       "description": "White button surrounded by a rotating blurred rainbow glow.",
       "file": "buttons/glow-ring-button.css",
       "html": "<button class=\"cssa-glow-ring-button\">Glow Ring</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с кольцом свечения",
+      "description_ru": "Белая кнопка в окружении вращающегося размытого радужного ореола."
     },
     {
       "id": "wifi-loader",
@@ -415,7 +511,9 @@
       "description": "Expanding wifi arcs pulsing outward like a connecting signal.",
       "file": "loaders/wifi-loader.css",
       "html": "<div class=\"cssa-wifi-loader\"><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик Wi-Fi сигнала",
+      "description_ru": "Расширяющиеся Wi-Fi дуги, пульсирующие как подключение."
     },
     {
       "id": "progress-bar-loader",
@@ -424,7 +522,9 @@
       "description": "Indeterminate progress bar with a sliding gradient chunk.",
       "file": "loaders/progress-bar-loader.css",
       "html": "<div class=\"cssa-progress-bar-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик полосы прогресса",
+      "description_ru": "Неопределённая полоса прогресса со скользящим градиентным куском."
     },
     {
       "id": "rainbow-cycle-text",
@@ -433,7 +533,9 @@
       "description": "Solid text cycling through the full rainbow over time.",
       "file": "text/rainbow-cycle-text.css",
       "html": "<div class=\"cssa-rainbow-cycle-text\">Rainbow</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Радужный переливающийся текст",
+      "description_ru": "Текст с плавно текущим многоцветным радужным градиентом."
     },
     {
       "id": "fire-text",
@@ -442,7 +544,9 @@
       "description": "Text with a flickering multi-layer fire glow underneath.",
       "file": "text/fire-text.css",
       "html": "<div class=\"cssa-fire-text\">FIRE</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Огненный текст",
+      "description_ru": "Текст с мерцающим многослойным огненным свечением снизу."
     },
     {
       "id": "glass-card",
@@ -451,7 +555,9 @@
       "description": "Frosted-glass card with blur, transparency and a soft border.",
       "file": "cards/glass-card.css",
       "html": "<div class=\"cssa-glass-card\"><div class=\"cssa-glass-card-title\">Glass</div><div class=\"cssa-glass-card-text\">Frosted blur surface</div></div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Стеклянная карточка",
+      "description_ru": "Карточка с матовым стеклом, размытием и мягкой рамкой."
     },
     {
       "id": "content-reveal-card",
@@ -460,7 +566,9 @@
       "description": "Card whose overlay slides up to reveal caption on hover.",
       "file": "cards/content-reveal-card.css",
       "html": "<div class=\"cssa-content-reveal-card\"><div class=\"cssa-content-reveal-card-visual\">Hover</div><div class=\"cssa-content-reveal-card-overlay\"><div class=\"cssa-content-reveal-card-title\">Revealed</div><div class=\"cssa-content-reveal-card-text\">Caption slides up</div></div></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с выездом контента",
+      "description_ru": "Карточка с оверлеем, выезжающим снизу при наведении."
     },
     {
       "id": "mesh-gradient-bg",
@@ -469,7 +577,9 @@
       "description": "Living mesh of overlapping color blobs that drift around.",
       "file": "backgrounds/mesh-gradient-bg.css",
       "html": "<div class=\"cssa-mesh-gradient-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон mesh-градиента",
+      "description_ru": "Живая сетка перекрывающихся цветных пятен, дрейфующих по холсту."
     },
     {
       "id": "falling-petals-bg",
@@ -478,7 +588,9 @@
       "description": "Soft pink petals spinning as they drift downward.",
       "file": "backgrounds/falling-petals-bg.css",
       "html": "<div class=\"cssa-falling-petals-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон падающих лепестков",
+      "description_ru": "Мягкие розовые лепестки, кружащиеся при падении."
     },
     {
       "id": "wave-bg",
@@ -487,7 +599,9 @@
       "description": "Two rolling wave layers swirling like ocean current.",
       "file": "backgrounds/wave-bg.css",
       "html": "<div class=\"cssa-wave-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон волн",
+      "description_ru": "Два слоя волн, водоворотом кружащие как океанское течение."
     },
     {
       "id": "ripple-button",
@@ -496,7 +610,9 @@
       "description": "Button with an endlessly expanding ripple radiating from its center.",
       "file": "buttons/ripple-button.css",
       "html": "<button class=\"cssa-ripple-button\">Ripple</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с рябью",
+      "description_ru": "Кнопка с бесконечно расширяющейся рябью от центра."
     },
     {
       "id": "flip-text-button",
@@ -505,7 +621,9 @@
       "description": "Button whose label flips 360° on hover in 3D.",
       "file": "buttons/flip-text-button.css",
       "html": "<button class=\"cssa-flip-text-button\"><span>Flip</span></button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с переворотом текста",
+      "description_ru": "Кнопка, текст которой переворачивается на 360° в 3D при наведении."
     },
     {
       "id": "glow-pulse-border-button",
@@ -514,7 +632,9 @@
       "description": "White button ringed by a spinning, pulsing rainbow glow.",
       "file": "buttons/glow-pulse-border-button.css",
       "html": "<button class=\"cssa-glow-pulse-border-button\">Glow Pulse</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с пульсирующей светящейся рамкой",
+      "description_ru": "Белая кнопка с вращающимся пульсирующим радужным ореолом."
     },
     {
       "id": "arrow-slide-button",
@@ -523,7 +643,9 @@
       "description": "Pill button whose arrow icon slides outward as the gap widens.",
       "file": "buttons/arrow-slide-button.css",
       "html": "<button class=\"cssa-arrow-slide-button\">Continue <span class=\"cssa-arrow-slide-button-icon\">→</span></button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка со скользящей стрелкой",
+      "description_ru": "Кнопка-пилюля со стрелкой, выезжающей наружу с расширением зазора."
     },
     {
       "id": "fill-bottom-button",
@@ -532,7 +654,9 @@
       "description": "Outlined button whose fill rises up from the bottom on hover.",
       "file": "buttons/fill-bottom-button.css",
       "html": "<button class=\"cssa-fill-bottom-button\">Fill Up</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с заливкой снизу",
+      "description_ru": "Контурная кнопка, заливка которой поднимается снизу при наведении."
     },
     {
       "id": "scanline-button",
@@ -541,7 +665,9 @@
       "description": "Dark button with a glowing scanline sweeping down endlessly.",
       "file": "buttons/scanline-button.css",
       "html": "<button class=\"cssa-scanline-button\">Scan</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка со сканлайном",
+      "description_ru": "Тёмная кнопка со светящейся скан-линией, бесконечно пробегающей вниз."
     },
     {
       "id": "push-down-button",
@@ -550,7 +676,9 @@
       "description": "Red 3D button that physically pushes down when clicked.",
       "file": "buttons/push-down-button.css",
       "html": "<button class=\"cssa-push-down-button\"><span class=\"cssa-push-down-button-icon\">▼</span>Push</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Утапливаемая кнопка",
+      "description_ru": "Красная 3D-кнопка, физически утапливаемая при нажатии."
     },
     {
       "id": "gradient-morph-button",
@@ -559,7 +687,9 @@
       "description": "Pill button whose gradient flows and morphs continuously.",
       "file": "buttons/gradient-morph-button.css",
       "html": "<button class=\"cssa-gradient-morph-button\">Morph</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с морфинг-градиентом",
+      "description_ru": "Кнопка-пилюля с градиентом, непрерывно текущим и морфящим."
     },
     {
       "id": "shine-diagonal-button",
@@ -568,7 +698,9 @@
       "description": "Pink button with a diagonal light shine sweeping across on loop.",
       "file": "buttons/shine-diagonal-button.css",
       "html": "<button class=\"cssa-shine-diagonal-button\">Shine</button>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Кнопка с диагональным бликом",
+      "description_ru": "Розовая кнопка с диагональным световым бликом, пробегающим по ней."
     },
     {
       "id": "infinity-loader",
@@ -577,7 +709,9 @@
       "description": "Two overlapping rotating arcs forming a figure-eight spinner.",
       "file": "loaders/infinity-loader.css",
       "html": "<div class=\"cssa-infinity-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик бесконечности",
+      "description_ru": "Светящаяся комета, бегущая по лемнискате (фигуре ∞)."
     },
     {
       "id": "clock-loader",
@@ -586,7 +720,9 @@
       "description": "Clock face with hour and minute hands spinning at different speeds.",
       "file": "loaders/clock-loader.css",
       "html": "<div class=\"cssa-clock-loader\"><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик часов",
+      "description_ru": "Циферблат с часовой и минутной стрелками, вращающимися с разной скоростью."
     },
     {
       "id": "hexagon-loader",
@@ -595,7 +731,9 @@
       "description": "A hexagon that rotates and pulses while shifting color.",
       "file": "loaders/hexagon-loader.css",
       "html": "<div class=\"cssa-hexagon-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик шестиугольника",
+      "description_ru": "Шестиугольник, вращающийся и пульсирующий со сменой цвета."
     },
     {
       "id": "typing-indicator-loader",
@@ -604,7 +742,9 @@
       "description": "Chat-style bubble with three dots bouncing like someone is typing.",
       "file": "loaders/typing-indicator-loader.css",
       "html": "<div class=\"cssa-typing-indicator-loader\"><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Индикатор набора текста",
+      "description_ru": "Чат-пузырь с тремя точками, подпрыгивающими как при наборе."
     },
     {
       "id": "bounce-ball-loader",
@@ -613,7 +753,9 @@
       "description": "A ball bouncing with a matching shadow that grows and shrinks.",
       "file": "loaders/bounce-ball-loader.css",
       "html": "<div class=\"cssa-bounce-ball-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик прыгающего мяча",
+      "description_ru": "Мяч, прыгающий с тенью, которая растёт и сжимается."
     },
     {
       "id": "gears-loader",
@@ -622,7 +764,9 @@
       "description": "Two dotted gears spinning in opposite directions.",
       "file": "loaders/gears-loader.css",
       "html": "<div class=\"cssa-gears-loader\"><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик шестерёнок",
+      "description_ru": "Две зубчатые шестерёнки, вращающиеся в разные стороны."
     },
     {
       "id": "battery-loader",
@@ -631,7 +775,9 @@
       "description": "A charging battery that fills from red to green on loop.",
       "file": "loaders/battery-loader.css",
       "html": "<div class=\"cssa-battery-loader\"><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик батареи",
+      "description_ru": "Заряжающаяся батарея, заполняющаяся от красного к зелёному."
     },
     {
       "id": "pacman-loader",
@@ -640,7 +786,9 @@
       "description": "Classic Pac-Man chomping while dots slide toward its mouth.",
       "file": "loaders/pacman-loader.css",
       "html": "<div class=\"cssa-pacman-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик Пакмана",
+      "description_ru": "Классический Пакман, жующий точки, подъезжающие к его рту."
     },
     {
       "id": "ripple-loader",
@@ -649,7 +797,9 @@
       "description": "Concentric ripples expanding outward from a center disc.",
       "file": "loaders/ripple-loader.css",
       "html": "<div class=\"cssa-ripple-loader\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Загрузчик ряби",
+      "description_ru": "Концентрические круги ряби, расширяющиеся от центрального диска."
     },
     {
       "id": "bounce-letters-text",
@@ -658,7 +808,9 @@
       "description": "Each letter bounces up independently in a staggered rhythm.",
       "file": "text/bounce-letters-text.css",
       "html": "<div class=\"cssa-bounce-letters-text\"><span style=\"animation-delay:0s\">B</span><span style=\"animation-delay:0.1s\">o</span><span style=\"animation-delay:0.2s\">u</span><span style=\"animation-delay:0.3s\">n</span><span style=\"animation-delay:0.4s\">c</span><span style=\"animation-delay:0.5s\">e</span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Текст с прыгающими буквами",
+      "description_ru": "Каждая буква подпрыгивает независимо в рассинхронизированном ритме."
     },
     {
       "id": "glow-pulse-text",
@@ -667,7 +819,9 @@
       "description": "Cyan text whose glow softly pulses brighter and dimmer.",
       "file": "text/glow-pulse-text.css",
       "html": "<div class=\"cssa-glow-pulse-text\">Glow</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Текст с пульсирующим свечением",
+      "description_ru": "Бирюзовый текст, свечение которого мягко пульсирует ярче и тусклее."
     },
     {
       "id": "rotate-3d-text",
@@ -676,7 +830,9 @@
       "description": "Text rotating fully around the Y axis in 3D on loop.",
       "file": "text/rotate-3d-text.css",
       "html": "<div class=\"cssa-rotate-3d-text\"><span>3D</span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "3D-вращающийся текст",
+      "description_ru": "Текст, полностью вращающийся вокруг оси Y в 3D."
     },
     {
       "id": "zoom-text",
@@ -685,7 +841,9 @@
       "description": "Text scaling up and down while shifting color.",
       "file": "text/zoom-text.css",
       "html": "<div class=\"cssa-zoom-text\"><span>ZOOM</span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Масштабирующийся текст",
+      "description_ru": "Текст, увеличивающийся и уменьшающийся со сменой цвета."
     },
     {
       "id": "shadow-swing-text",
@@ -694,7 +852,9 @@
       "description": "White text with a dark shadow that swings behind it.",
       "file": "text/shadow-swing-text.css",
       "html": "<div class=\"cssa-shadow-swing-text\" data-text=\"Swing\">Swing</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Текст с качающейся тенью",
+      "description_ru": "Белый текст с тёмной тенью, раскачивающейся позади."
     },
     {
       "id": "color-split-text",
@@ -703,7 +863,9 @@
       "description": "Text with red and cyan offset channels jittering like a glitch.",
       "file": "text/color-split-text.css",
       "html": "<div class=\"cssa-color-split-text\">SPLIT</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Текст с разделением цвета",
+      "description_ru": "Текст с красным и бирюзовым смещением каналов, дрожащий как глитч."
     },
     {
       "id": "pulse-scale-text",
@@ -712,7 +874,9 @@
       "description": "Green text gently scaling and brightening in a pulse.",
       "file": "text/pulse-scale-text.css",
       "html": "<div class=\"cssa-pulse-scale-text\">Pulse</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Пульсирующий масштабируемый текст",
+      "description_ru": "Зелёный текст, мягко масштабирующийся и вспыхивающий в пульсации."
     },
     {
       "id": "flip-letters-text",
@@ -721,7 +885,9 @@
       "description": "Letters flipping over the X axis while changing color.",
       "file": "text/flip-letters-text.css",
       "html": "<div class=\"cssa-flip-letters-text\"><span style=\"animation-delay:0s\">F</span><span style=\"animation-delay:0.2s\">L</span><span style=\"animation-delay:0.4s\">I</span><span style=\"animation-delay:0.6s\">P</span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Текст с переворотом букв",
+      "description_ru": "Буквы, переворачивающиеся по оси X со сменой цвета."
     },
     {
       "id": "lightning-text",
@@ -730,7 +896,9 @@
       "description": "Yellow text that flashes like a lightning strike at intervals.",
       "file": "text/lightning-text.css",
       "html": "<div class=\"cssa-lightning-text\">ZAP</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Текст молнии",
+      "description_ru": "Жёлтый текст, вспыхивающий как удар молнии с интервалами."
     },
     {
       "id": "snow-text",
@@ -739,7 +907,9 @@
       "description": "Text filled with a gradient that drifts downward like falling snow.",
       "file": "text/snow-text.css",
       "html": "<div class=\"cssa-snow-text\">Snow</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Снежный градиентный текст",
+      "description_ru": "Текст с градиентом, стекающим вниз как падающий снег."
     },
     {
       "id": "glow-pulse-card",
@@ -748,7 +918,9 @@
       "description": "Gradient card whose outer glow pulses outward on loop.",
       "file": "cards/glow-pulse-card.css",
       "html": "<div class=\"cssa-glow-pulse-card\">Pulse</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с пульсирующим свечением",
+      "description_ru": "Градиентная карточка, внешнее свечение которой пульсирует наружу."
     },
     {
       "id": "gradient-border-card",
@@ -757,7 +929,9 @@
       "description": "Dark card with a rotating rainbow conic gradient border.",
       "file": "cards/gradient-border-card.css",
       "html": "<div class=\"cssa-gradient-border-card\"><div class=\"cssa-gradient-border-card-title\">Border</div><div class=\"cssa-gradient-border-card-text\">Rotating gradient</div></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с градиентной рамкой",
+      "description_ru": "Тёмная карточка с вращающейся радужной конической градиентной рамкой."
     },
     {
       "id": "zoom-card",
@@ -766,7 +940,9 @@
       "description": "Card that zooms in smoothly when hovered.",
       "file": "cards/zoom-card.css",
       "html": "<div class=\"cssa-zoom-card\">Zoom</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Масштабирующаяся карточка",
+      "description_ru": "Карточка, плавно увеличивающаяся при наведении."
     },
     {
       "id": "rotate-card",
@@ -775,7 +951,9 @@
       "description": "Card that tilts and scales up on hover.",
       "file": "cards/rotate-card.css",
       "html": "<div class=\"cssa-rotate-card\">Rotate</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Вращающаяся карточка",
+      "description_ru": "Карточка, наклоняющаяся и увеличивающаяся при наведении."
     },
     {
       "id": "reveal-corners-card",
@@ -784,7 +962,9 @@
       "description": "Dark card whose corner brackets slide in on hover.",
       "file": "cards/reveal-corners-card.css",
       "html": "<div class=\"cssa-reveal-corners-card\">Corners</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с раскрытием углов",
+      "description_ru": "Тёмная карточка, угловые скобки которой выезжают при наведении."
     },
     {
       "id": "scanline-card",
@@ -793,7 +973,9 @@
       "description": "Terminal-style card with a scanline sweeping down its face.",
       "file": "cards/scanline-card.css",
       "html": "<div class=\"cssa-scanline-card\"><span>SCAN</span></div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Карточка со сканлайном",
+      "description_ru": "Карточка в стиле терминала со скан-линией, пробегающей по лицу."
     },
     {
       "id": "neon-edge-card",
@@ -802,7 +984,9 @@
       "description": "Card with a flickering neon cyan edge.",
       "file": "cards/neon-edge-card.css",
       "html": "<div class=\"cssa-neon-edge-card\">Neon</div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Карточка с неоновым краем",
+      "description_ru": "Карточка с мерцающим неоновым бирюзовым краем."
     },
     {
       "id": "shadow-swing-card",
@@ -811,7 +995,9 @@
       "description": "Card with a hard offset shadow that swings out on hover.",
       "file": "cards/shadow-swing-card.css",
       "html": "<div class=\"cssa-shadow-swing-card\">Swing</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Карточка с качающейся тенью",
+      "description_ru": "Карточка с жёсткой смещённой тенью, раскачивающейся при наведении."
     },
     {
       "id": "tilt-3d-card",
@@ -820,7 +1006,9 @@
       "description": "Card tilting back in 3D perspective on hover.",
       "file": "cards/tilt-3d-card.css",
       "html": "<div class=\"cssa-tilt-3d-card\">Tilt</div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "3D-карточка с наклоном",
+      "description_ru": "Карточка, наклоняющаяся в 3D-перспективе при наведении."
     },
     {
       "id": "bubble-bg",
@@ -829,7 +1017,9 @@
       "description": "Translucent bubbles rising up through deep teal water.",
       "file": "backgrounds/bubble-bg.css",
       "html": "<div class=\"cssa-bubble-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон пузырьков",
+      "description_ru": "Полупрозрачные пузырьки, поднимающиеся сквозь глубокую бирюзовую воду."
     },
     {
       "id": "snow-bg",
@@ -838,7 +1028,9 @@
       "description": "Snowflakes drifting down a night-sky gradient.",
       "file": "backgrounds/snow-bg.css",
       "html": "<div class=\"cssa-snow-bg\"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон снега",
+      "description_ru": "Снежинки, спускающиеся по градиенту ночного неба."
     },
     {
       "id": "confetti-bg",
@@ -847,7 +1039,9 @@
       "description": "Colorful confetti strips tumbling down while spinning.",
       "file": "backgrounds/confetti-bg.css",
       "html": "<div class=\"cssa-confetti-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон конфетти",
+      "description_ru": "Разноцветные полоски конфетти, кружась, падают вниз."
     },
     {
       "id": "lightning-bg",
@@ -856,7 +1050,9 @@
       "description": "Stormy sky with periodic lightning flashes and a bolt.",
       "file": "backgrounds/lightning-bg.css",
       "html": "<div class=\"cssa-lightning-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон молний",
+      "description_ru": "Грозовое небо с периодическими вспышками молний и разрядом."
     },
     {
       "id": "embers-bg",
@@ -865,7 +1061,9 @@
       "description": "Glowing orange embers rising from a dark fire pit.",
       "file": "backgrounds/embers-bg.css",
       "html": "<div class=\"cssa-embers-bg\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон угольков",
+      "description_ru": "Светящиеся оранжевые угольки, поднимающиеся из тёмного кострища."
     },
     {
       "id": "stripes-bg",
@@ -874,7 +1072,9 @@
       "description": "Diagonal pink stripes scrolling continuously.",
       "file": "backgrounds/stripes-bg.css",
       "html": "<div class=\"cssa-stripes-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон движущихся полос",
+      "description_ru": "Диагональные розовые полосы, непрерывно прокручивающиеся."
     },
     {
       "id": "dots-grid-bg",
@@ -883,7 +1083,9 @@
       "description": "Pink polka-dot grid that gently drifts diagonally.",
       "file": "backgrounds/dots-grid-bg.css",
       "html": "<div class=\"cssa-dots-grid-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон дрейфующей сетки точек",
+      "description_ru": "Розовая сетка в горошек, мягко дрейфующая по диагонали."
     },
     {
       "id": "vortex-bg",
@@ -892,7 +1094,9 @@
       "description": "A swirling conic vortex that grows and shrinks on loop.",
       "file": "backgrounds/vortex-bg.css",
       "html": "<div class=\"cssa-vortex-bg\"></div>",
-      "darkPreview": false
+      "darkPreview": false,
+      "name_ru": "Фон водоворота",
+      "description_ru": "Закрученный конический водоворот, растущий и сжимающийся в цикле."
     },
     {
       "id": "neon-grid-bg",
@@ -901,7 +1105,9 @@
       "description": "Retro synthwave perspective grid scrolling toward the horizon.",
       "file": "backgrounds/neon-grid-bg.css",
       "html": "<div class=\"cssa-neon-grid-bg\"></div>",
-      "darkPreview": true
+      "darkPreview": true,
+      "name_ru": "Фон неоновой сетки",
+      "description_ru": "Ретро синтвейв-сетка в перспективе, бегущая к горизонту."
     }
   ]
 }

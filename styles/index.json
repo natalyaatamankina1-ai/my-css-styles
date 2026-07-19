@@ -136,7 +136,7 @@
       "category": "Loaders",
       "description": "A cube that flips through 3D space while shifting color.",
       "file": "loaders/square-flip-loader.css",
-      "html": "<div class=\"cssa-square-flip-loader\"><span></span><span></span><span></span><span></span><span></span><span></span></div>",
+      "html": "<div class=\"cssa-square-flip-loader\"><div class=\"cssa-square-flip-loader-inner\"><span></span><span></span><span></span><span></span><span></span><span></span></div></div>",
       "darkPreview": false,
       "name_ru": "Загрузчик переворачивающегося куба",
       "description_ru": "Куб, переворачивающийся в 3D-пространстве со сменой цвета граней."
